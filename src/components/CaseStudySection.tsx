@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const CaseStudySection = () => {
   return (
-    <section className="bg-gray-900 py-8 sm:py-16 px-4 sm:px-6 lg:px-8 text-white">
+    <section className="bg-gray-900 py-8 sm:py-16 px-4 sm:px-6 lg:px-8 text-white mt-20">
       <div className="max-w-7xl mt-8 mx-auto">
         {/* Logos Section */}
         <div className="flex flex-wrap justify-center items-center gap-6 mb-8 sm:mb-12">
