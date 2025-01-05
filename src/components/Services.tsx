@@ -95,7 +95,7 @@ export default function TakeAdvantageSection() {
       title: "Custom Typography Design",
       description:
         "Creating unique fonts and typography tailored to brand requirements.",
-      iicon: "/pic-13.png",
+      icon: "/pic-13.png",
     },
     {
       title: "Book Cover Design",
@@ -138,7 +138,7 @@ export default function TakeAdvantageSection() {
           {items.map((item, index) => (
             <motion.div
               key={index}
-              className="bg-white shadow-lg p-8 rounded-lg flex flex-col  "
+              className="bg-white  p-8 rounded-lg flex flex-col  "
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6, delay: 0.3 + index * 0.1 }}
@@ -151,7 +151,7 @@ export default function TakeAdvantageSection() {
             
                 className="w-10 h-10 mb-4"
               />
-              <h3 className="text-2xl text-black  mb-2">{item.title}</h3>
+              <h3 className="text-2xl text-black font-bold  mb-2">{item.title}</h3>
               </div>
               <p className="text-lg text-gray-600">{item.description}</p>
             </motion.div>
