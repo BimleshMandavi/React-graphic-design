@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const CreativeTalentSection = () => {
   return (
-    <section className="py-12 bg-gray-50">
+    <section className="py-12 bg-gray-50 md:ml-20">
       <div className="container mx-auto flex flex-col lg:flex-row items-center md:ml-20">
         {/* Left Section */}
         <motion.div
