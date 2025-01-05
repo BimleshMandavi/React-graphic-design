@@ -20,12 +20,12 @@ const CreativeTalentSection = () => {
               For Enterprises
             </span>
           </div>
-          <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-black leading-tight">
+          <h1 className="text-4xl lg:text-7xl w-[80%]  mb-6 text-black leading-tight">
             Scale your Teams Faster by Hiring the{" "}
             <span className="text-[#1600ea]">Top 1%</span> Skilled Creative
             Talent.
           </h1>
-          <p className="text-gray-700 mb-6">
+          <p className="text-gray-700 mb-6 w-[78%] pt-6">
             Join an exclusive talent pool and connect with leading brands
             searching for top creative professionals. Showcase your expertise,
             land your dream role, and redefine your career with endless
@@ -48,7 +48,7 @@ const CreativeTalentSection = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <div className="relative md:h-[500px] md:w-[500px] bg-white rounded-lg shadow-lg p-6">
+          <div className="relative md:h-[680px] md:w-[500px] pt-20  rounded-lg  p-6">
             <img className="w-full h-full"  src="/pic-09.png" alt="Arjun Mehta" />
           </div>
         </motion.div>

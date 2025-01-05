@@ -8,7 +8,7 @@ const CaseStudySection = () => {
       <div className="max-w-7xl mt-8 mx-auto">
         <img className="ml-96  flex  w-[500px]" src="/pic-12.png" />
         {/* Logos Section */}
-        <div className="flex flex-wrap justify-center mt-10 items-center gap-16 mb-8 sm:mb-12 cursor-pointer">
+        <div className="flex flex-wrap justify-center mt-10 items-center gap-36 mb-8 sm:mb-12 cursor-pointer">
           <img
             src="/assets/park+.png"
             alt="Park+"
@@ -49,29 +49,29 @@ const CaseStudySection = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, amount: 0.5 }}
             transition={{ duration: 0.8 }}
-            className="space-y-4 text-center md:text-left"
+            className="space-y-8 text-center md:text-left"
           >
             <img className="w-80" src="/pic-11.png" />
               
            
-            <h3 className="text-xl sm:text-6xl lg:text-6xl  leading-snug space-x-8">
+            <h3 className="text-xl sm:text-5xl lg:text-5xl  leading-snug space-x-10 tracking-widest leading-8 mb-8">
               "Reimagining a Legacy: Redefining Top's India Brand Identity and
               Strategy for the Modern Consumer"
             </h3>
-            <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-12 justify-center md:justify-start">
+            <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-12 justify-center md:justify-start ">
               <div>
-                <p className="text-3xl sm:text-6xl font-bold text-green-400">
+                <p className="text-3xl sm:text-8xl  text-green-400">
                   250%
                 </p>
-                <p className="text-xs sm:text-sm text-gray-300">
+                <p className="text-xs sm:text-sm mt-4 text-gray-300">
                   Increase in Click Rate
                 </p>
               </div>
               <div>
-                <p className="text-3xl sm:text-6xl font-bold text-green-400">
+                <p className="text-3xl sm:text-8xl  text-green-400">
                   192k+
                 </p>
-                <p className="text-xs sm:text-sm text-gray-300">
+                <p className="text-xs sm:text-sm mt-4 text-gray-300">
                   Leads Generated with Creatives
                 </p>
               </div>
@@ -90,12 +90,12 @@ const CaseStudySection = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, amount: 0.5 }}
             transition={{ duration: 0.8 }}
-            className="flex justify-center"
+            className="flex justify-center pl-16 "
           >
-            <img
+            <img 
               src="/pic-10.png"
               alt="Tops Case Study"
-              className="  rounded-lg shadow-lg"
+              className="  rounded-lg shadow-lg w-[580px] h-[540px]"
             />
           </motion.div>
         </div>

@@ -103,6 +103,7 @@ function Footer() {
           <h5 className="text-lg font-semibold mb-4 text-[#908134]">COMPANY</h5>
           <ul>
             <li className="mb-2">About Us</li>
+            <p className="pb-4">Join our team</p>
             <li>
               <a href="#" className="text-white hover:underline border border-[#1600ea]  bg-[#1600ea] rounded p-2">
                 Join team

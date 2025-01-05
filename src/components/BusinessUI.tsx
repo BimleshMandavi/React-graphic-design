@@ -3,29 +3,33 @@ import { motion } from "framer-motion";
 
  function BusinessUI() {
   return (
-    <div className="bg-gray-900 text-white font-sans px-16">
-      <section className="text-center py-12">
-        <h1 className="text-6xl  mb-4">
+    <div className="bg-[#120d23] text-white font-sans px-16">
+      <section className="text-center pt-20 py-12">
+        <h1 className="text-6xl  mb-4 mt-8">
           How we are best for your business.
         </h1>
-        <div className="flex justify-center gap-8 text-xl">
+        <div className="flex justify-center gap-8 text-xl pt-12 pb-8">
           <div className="text-center">
-            <h2 className="text-3xl font-bold">$10M+</h2>
+            <h2 className="text-6xl mt-8 ">$10M+ </h2> 
             <p>Revenue for Clients</p>
           </div>
+          <span className="text-9xl font-[4] ">|</span>
           <div className="text-center">
-            <h2 className="text-3xl font-bold">1500+</h2>
+            <h2 className="text-6xl mt-8">1500+ </h2>
             <p>Projects Delivered</p>
           </div>
+          <a className="text-9xl font-[4] ">|</a>
           <div className="text-center">
-            <h2 className="text-3xl font-bold">10k+</h2>
+            <h2 className="text-6xl mt-8">10k+</h2>
             <p>Expert Designers</p>
           </div>
         </div>
       </section>
 
+      <hr className="w-[895px] ml-80" />
+
       <section className="text-center m-5 py-12">
-        <h2 className="text-3xl font-bold mb-8">
+        <h2 className="text-6xl  mb-24">
           Explore Perfect needs with us.
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 px-16">

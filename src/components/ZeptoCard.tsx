@@ -13,9 +13,8 @@ export default function ZeptoCard() {
       >
         {/* Left Section */}
         <div className="flex flex-col items-center  md:items-start w-full ">
-          <div className="bg-[#4B1868] text-white font-bold text-lg px-6 py-3  rounded-lg">
-            zepto
-          </div>
+          <img className ="rounded-lg pr-10" src="/pic-14.png" />
+            
           <div className="mt-4 text-center md:text-left ">
             <p className="font-medium text-gray-700">Sanskruti Verma</p>
             <p className="text-sm text-gray-500">Visual Design Manager</p>

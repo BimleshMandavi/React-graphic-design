@@ -1,7 +1,7 @@
 
 
 
-"use client";
+
 import { motion } from "framer-motion";
 
 
@@ -27,7 +27,7 @@ const Testimonials = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          {[...Array(9)].map((_, index) => (
+          {[...Array(6)].map((_, index) => (
             <motion.div
               key={index}
               className="p-4 border rounded-lg shadow-sm bg-gray-50"
@@ -35,7 +35,7 @@ const Testimonials = () => {
               whileTap={{ scale: 0.95 }}
             >
               <div className="flex items-center justify-center mb-2">
-                {[...Array(9)].map((_, starIndex) => (
+                {[...Array(4)].map((_, starIndex) => (
                   <span key={starIndex} className="text-[#1600ea]">
                     &#9733;
                   </span>

@@ -11,7 +11,7 @@ export default function LandingPage() {
         transition={{ duration: 0.8 }}
         className="text-center"
       >
-        <h1 className="text-white text-4xl md:text-6xl  mb-8 px-60">
+        <h1 className="text-white text-4xl md:text-6xl mb-8  px-60">
           Unlock your Potential to get noticed among Top 1% ventures!
         </h1>
         <div className="flex justify-center space-x-4">
