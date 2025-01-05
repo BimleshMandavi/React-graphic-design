@@ -7,7 +7,7 @@ const CaseStudySection = () => {
     <section className="bg-gray-900 py-8 sm:py-16 px-4 sm:px-6 lg:px-8 text-white mt-20">
       <div className="max-w-7xl mt-8 mx-auto">
         {/* Logos Section */}
-        <div className="flex flex-wrap justify-center items-center gap-6 mb-8 sm:mb-12">
+        <div className="flex flex-wrap justify-center items-center gap-16 mb-8 sm:mb-12">
           <img
             src="/assets/park+.png"
             alt="Park+"
@@ -53,7 +53,7 @@ const CaseStudySection = () => {
             <p className="text-yellow-400 text-xs sm:text-sm font-semibold uppercase tracking-widest">
               Featured Case Study
             </p>
-            <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold leading-snug">
+            <h3 className="text-xl sm:text-6xl lg:text-6xl  leading-snug space-x-8">
               "Reimagining a Legacy: Redefining Top's India Brand Identity and
               Strategy for the Modern Consumer"
             </h3>
@@ -94,7 +94,7 @@ const CaseStudySection = () => {
             <img
               src="/pic-10.png"
               alt="Tops Case Study"
-              className="w-3/4 sm:w-2/3 md:w-full rounded-lg shadow-lg"
+              className="  rounded-lg shadow-lg"
             />
           </motion.div>
         </div>

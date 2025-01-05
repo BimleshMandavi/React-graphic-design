@@ -1,7 +1,8 @@
 
 import { motion } from "framer-motion";
-import { FaInstagram, FaLinkedin, FaEnvelope } from "react-icons/fa";
-
+import { FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebookSquare } from "react-icons/fa";
 function Footer() {
   const fadeIn = {
     hidden: { opacity: 0 },
@@ -18,7 +19,7 @@ function Footer() {
       <div className="container mx-auto px-4 py-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-8">
         {/* Column 1 */}
         <div className="cursor-pointer">
-          <h5 className="text-lg font-semibold mb-4 text-orange-500">Platform</h5>
+          <h5 className="text-lg font-semibold mb-4 text-[#908134]">PLATFORM</h5>
           <ul>
             <li className="mb-2 hover:text-sky-600">Text 1</li>
             <li className="mb-2 hover:text-sky-600">Text 2</li>
@@ -26,7 +27,7 @@ function Footer() {
             <li className="mb-2 hover:text-sky-600">Text 5</li>
             <li>Text 6</li>
           </ul>
-          <h5 className="text-lg font-semibold mt-6 mb-4 text-orange-500">Yet To Be Decided</h5>
+          <h5 className="text-lg font-semibold mt-6 mb-4 text-[#908134]">YET TO BE DECIDED</h5>
           <ul>
             <li className="mb-2 hover:text-sky-600">Text 1</li>
             <li className="hover:text-sky-600">Text 2</li>
@@ -35,7 +36,7 @@ function Footer() {
 
         {/* Column 2 */}
         <div className="cursor-pointer">
-          <h5 className="text-lg font-semibold mb-4 text-orange-500">Design Services</h5>
+          <h5 className="text-lg font-semibold mb-4 text-[#908134]">DESIGN SERVICES</h5>
           <ul>
             <li className="mb-2 hover:text-sky-600">Content Writing</li>
             <li className="mb-2 hover:text-sky-600">Graphic Design</li>
@@ -50,7 +51,7 @@ function Footer() {
 
         {/* Column 3 */}
         <div className="cursor-pointer">
-          <h5 className="text-lg font-semibold mb-4 text-orange-500">Martech Services</h5>
+          <h5 className="text-lg font-semibold mb-4 text-[#908134]">MARTECH SERVICES</h5>
           <ul>
             <li className="mb-2 hover:text-sky-600">Custom Web Development</li>
             <li className="mb-2 hover:text-sky-600 ">Performance Marketing</li>
@@ -65,14 +66,14 @@ function Footer() {
 
         {/* Column 4 */}
         <div className="cursor-pointer">
-          <h5 className="text-lg font-semibold mb-4 text-orange-500">Media Services</h5>
+          <h5 className="text-lg font-semibold mb-4 text-[#908134]">MEDIA SERVICES</h5>
           <ul>
             <li className="mb-2 hover:text-sky-600">Media Planning & Buying</li>
             <li className="mb-2 hover:text-sky-600">Influencer Marketing</li>
             <li className="mb-2 hover:text-sky-600">Event Marketing</li>
             <li className="hover:text-sky-600">Customer Relations</li>
           </ul>
-          <h5 className="text-lg font-semibold mt-6 mb-4 text-orange-500">Talent Network Services</h5>
+          <h5 className="text-lg font-semibold mt-6 mb-4 text-[#908134]">TALENT NETWORK SERVICES</h5>
           <ul>
             <li className="mb-2 hover:text-sky-600">Get Hired</li>
             <li className="mb-2 hover:text-sky-600">Get Talent</li>
@@ -82,7 +83,7 @@ function Footer() {
 
         {/* Column 5 */}
         <div className="cursor-pointer">
-          <h5 className="text-lg font-semibold text-orange-500 mb-4">Resources</h5>
+          <h5 className="text-lg font-semibold text-[#908134] mb-4">RESOURCES</h5>
           <ul>
             <li className="mb-2 hover:text-sky-600">Blogs</li>
             <li className="mb-2 hover:text-sky-600">Case Studies</li>
@@ -99,7 +100,7 @@ function Footer() {
       <div className="container mx-auto px-4 py-6 border-t border-gray-200 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {/* Company */}
         <div>
-          <h5 className="text-lg font-semibold mb-4 text-orange-500">Company</h5>
+          <h5 className="text-lg font-semibold mb-4 text-[#908134]">COMPANY</h5>
           <ul>
             <li className="mb-2">About Us</li>
             <li>
@@ -111,14 +112,14 @@ function Footer() {
         </div>
 
         {/* Address */}
-        <div>
-          <h5 className="text-lg font-semibold mb-4  text-orange-500">Address</h5>
+        <div className="mr-8">
+          <h5 className="text-lg font-semibold mb-4  text-[#908134]">ADDRESS</h5>
           <p className="hover:text-sky-600 cursor-pointer">Address</p>
         </div>
 
         {/* Get in Touch */}
         <div>
-          <h5 className="text-lg font-semibold mb-4 text-orange-500">Get in Touch</h5>
+          <h5 className="text-lg font-semibold mb-4 text-[#908134]">GET IN TOUCH</h5>
           <p>Please connect with us at</p>
           <p>+91-XXXXXXXXXX</p>
           <p>
@@ -128,21 +129,30 @@ function Footer() {
 
         {/* Social Media */}
         <div>
-          <h5 className="text-lg font-semibold mb-4 text-orange-500">Social Media</h5>
-          <ul className="flex space-x-4">
+          <h5 className="text-lg font-semibold mb-4 text-[#908134]">SOCIAL MEDIA</h5>
+          <ul className="flex space-x-4 text-center ml-8">
             <li>
               <a href="#" className="text-blue-600 hover:underline flex items-center">
-                <FaInstagram className="mr-2" />
+                <FaInstagram className="mr-2 text-pink-500 text-2xl" />
               </a>
             </li>
             <li>
               <a href="#" className="text-blue-600 hover:underline flex items-center">
-                <FaLinkedin className="mr-2" />
+                <FaLinkedin className="mr-2 text-2xl" />
+              </a>
+            </li>
+           
+          </ul>
+          <ul className="flex space-x-4 mt-2 ml-8">
+             <li>
+              <a href="#" className="text-blue-600 hover:underline  items-center">
+                <FaFacebookSquare className="mr-2 text-black text-2xl" />
               </a>
             </li>
             <li>
-              <a href="#" className="text-blue-600 hover:underline flex items-center">
-                <FaEnvelope className="mr-2" />
+              <a href="#" className="text-blue-600 hover:underline  items-center">
+                <FaXTwitter className="mr-2 text-black text-2xl" />
+               
               </a>
             </li>
           </ul>

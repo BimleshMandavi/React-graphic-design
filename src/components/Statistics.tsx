@@ -10,7 +10,7 @@ export default function BenefitSection() {
   
       {/* Benefit Section */}
       <div className="text-center mb-10">
-        <h2 className="text-5xl font-semibold">How we will benefit you.</h2>
+        <h2 className="text-xl md:text-6xl ">How we will benefit you.</h2>
       </div>
 
       {/* Grid Section */}
@@ -23,7 +23,11 @@ export default function BenefitSection() {
           <div className='w-[40%]'>
           <h3 className="text-4xl font-bold mb-2">Hire Us or On-board Top 1% Creative Talent ✨</h3>
           <p className="text-md mb-4">
-            Collaborate with our expert team for tailored, high-quality designs aligned with your brand's goals.
+            Collaborate with our expert team for tailored, high-quality
+designs aligned with your brand’s goals, or onboard top
+creative talent for fresh perspectives. Our flexible approach
+ensures impactful, client-focused solutions that resonate
+with your audience.
           </p>
            <a href="#" className="text-blue-500 font-medium">Hire Designers →</a>
            </div>
@@ -48,7 +52,7 @@ export default function BenefitSection() {
           <p className="text-md mb-4">
             Strategically crafted concepts that captivate engagement and boost conversions to maximize profitability.
           </p>
-          <a href="#" className="text-blue-500 font-medium">Know More →</a>
+          <a href="#" className="text-blue-500 font-medium"> Know More →</a>
           <div className="text-center mt-5">
             <img
                 src="/pic-03.png"

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
   return (
     <div className="bg-gray-900 text-white font-sans px-16">
       <section className="text-center py-12">
-        <h1 className="text-6xl font-bold mb-4">
+        <h1 className="text-6xl  mb-4">
           How we are best for your business.
         </h1>
         <div className="flex justify-center gap-8 text-xl">

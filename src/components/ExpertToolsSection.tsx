@@ -30,7 +30,7 @@ const ExpertToolsSection = () => {
       animate="visible"
     >
       <motion.h2
-        className="text-xl sm:text-2xl lg:text-3xl font-bold text-black mb-4 sm:mb-6 lg:mb-8"
+        className="text-xl md:text-6xl lg:text-6xl  text-black mb-4 sm:mb-6 lg:mb-8"
         variants={itemVariants}
       >
         Expertly Crafted with <br /> the Latest Tools

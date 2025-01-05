@@ -6,17 +6,17 @@ export default function ZeptoCard() {
   return (
     <div className="flex items-center justify-center h-80 bg-[#FAF6F0] mt-20 mx-24">
       <motion.div
-        className="flex flex-col md:flex-row items-center gap-10 p-6 shadow-lg rounded-lg max-w-4xl"
+        className="flex flex-col md:flex-row items-center gap-10 p-6  rounded-lg max-w-4xl"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
         {/* Left Section */}
-        <div className="flex flex-col items-center  md:items-start ">
+        <div className="flex flex-col items-center  md:items-start w-full ">
           <div className="bg-[#4B1868] text-white font-bold text-lg px-6 py-3  rounded-lg">
             zepto
           </div>
-          <div className="mt-4 text-center md:text-left">
+          <div className="mt-4 text-center md:text-left ">
             <p className="font-medium text-gray-700">Sanskruti Verma</p>
             <p className="text-sm text-gray-500">Visual Design Manager</p>
           </div>

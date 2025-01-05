@@ -8,23 +8,23 @@ import { SiAdobe } from "react-icons/si";
   return (
     <motion.section
       id="hero"
-      className="bg-gray-900 text-white py-16 relative px-14"
+      className="bg-[#070324] text-white py-16 relative px-18"
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: 'easeOut' }}
     >
-      <div className="container mx-auto px-6 flex flex-col md:flex-row items-center">
+      <div className="container mx-auto px-14 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 text-center md:text-left">
           <motion.h1
-            className="text-4xl md:text-6xl font-extrabold mb-6"
+            className="text-4xl md:text-6xl  mb-6 space-y-4"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            Driving Sales and Capturing Attention Through <span className="text-yellow-400">Graphic Designs</span>
+           <p>Driving Sales</p> <p> and Capturing</p> Attention Through <div className="text-yellow-400">Graphic Designs</div>
           </motion.h1>
           <motion.p
-            className="text-lg md:text-xl mb-6"
+            className="text-lg md:text-xl mb-6 ml-2"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.4 }}
