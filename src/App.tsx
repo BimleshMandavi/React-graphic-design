@@ -18,7 +18,7 @@ function App() {
 
   return (
     <>
-    <div className="">
+    <div className="bg-[#FAF6F0]">
     <Header />
       <HeroSection />
       <FeaturesSection />
