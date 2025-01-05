@@ -104,7 +104,7 @@ function Footer() {
           <ul>
             <li className="mb-2">About Us</li>
             <li>
-              <a href="#" className="text-white hover:underline border border-blue-600  bg-blue-500 rounded p-2">
+              <a href="#" className="text-white hover:underline border border-[#1600ea]  bg-[#1600ea] rounded p-2">
                 Join team
               </a>
             </li>
