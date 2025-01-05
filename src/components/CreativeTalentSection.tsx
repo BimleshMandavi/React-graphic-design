@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const CreativeTalentSection = () => {
   return (
     <section className="py-12 bg-gray-50">
-      <div className="container mx-auto flex flex-col lg:flex-row items-center">
+      <div className="container mx-auto flex flex-col lg:flex-row items-center md:ml-20">
         {/* Left Section */}
         <motion.div
           className="lg:w-1/2 px-6 text-center lg:text-left"
@@ -48,8 +48,8 @@ const CreativeTalentSection = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <div className="relative bg-white rounded-lg shadow-lg p-6">
-            <img src="/pic-09.png" alt="Arjun Mehta" />
+          <div className="relative md:h-[500px] md:w-[500px] bg-white rounded-lg shadow-lg p-6">
+            <img className="w-full h-full"  src="/pic-09.png" alt="Arjun Mehta" />
           </div>
         </motion.div>
       </div>
