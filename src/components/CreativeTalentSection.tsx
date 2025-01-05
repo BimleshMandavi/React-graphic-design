@@ -13,7 +13,7 @@ const CreativeTalentSection = () => {
           transition={{ duration: 0.8 }}
         >
           <div className="flex space-x-6 mb-4">
-            <span className="text-blue-600 font-bold cursor-pointer border-b-2 border-blue-600">
+            <span className="text-[#1600ea] font-bold cursor-pointer border-b-2 border-blue-600">
               For Candidates
             </span>
             <span className="text-gray-500 cursor-pointer">
@@ -22,7 +22,7 @@ const CreativeTalentSection = () => {
           </div>
           <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-black leading-tight">
             Scale your Teams Faster by Hiring the{" "}
-            <span className="text-blue-600">Top 1%</span> Skilled Creative
+            <span className="text-[#1600ea]">Top 1%</span> Skilled Creative
             Talent.
           </h1>
           <p className="text-gray-700 mb-6">

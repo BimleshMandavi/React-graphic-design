@@ -36,7 +36,7 @@ const Testimonials = () => {
             >
               <div className="flex items-center justify-center mb-2">
                 {[...Array(9)].map((_, starIndex) => (
-                  <span key={starIndex} className="text-blue-500">
+                  <span key={starIndex} className="text-[#1600ea]">
                     &#9733;
                   </span>
                 ))}

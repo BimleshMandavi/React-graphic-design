@@ -50,7 +50,7 @@ export default function Navbar() {
         </a>
         <a
           href="#"
-          className="bg-blue-600 px-4 py-2 rounded hover:bg-blue-500 transition"
+          className="bg-[#1600ea] px-4 py-2 rounded hover:bg-blue-500 transition"
         >
           Get Started
         </a>

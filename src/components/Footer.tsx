@@ -163,23 +163,23 @@ function Footer() {
         <p className="text-sm text-gray-600">© 2024, Name Inc. All Rights Reserved.</p>
         <ul className="flex space-x-4">
           <li>
-            <a href="#" className="text-blue-600 hover:underline">
+            <a href="#" className="text-[#1600ea] hover:underline">
               Terms of Service
             </a>
           </li>
           <li>
-            <a href="#" className="text-blue-600 hover:underline">
+            <a href="#" className="text-[#1600ea] hover:underline">
               Privacy Policy
             </a>
           </li>
           <li>
-            <a href="#" className="text-blue-600 hover:underline">
+            <a href="#" className="text-[#1600ea] hover:underline">
               Sitemap
             </a>
           </li>
         </ul>
         <p className="text-sm text-gray-600">
-          A Proud <span className="text-blue-600">🇮🇳 Design Agency</span>.
+          A Proud <span className="text-[#1600ea]">🇮🇳 Design Agency</span>.
         </p>
       </div>
     </motion.footer>

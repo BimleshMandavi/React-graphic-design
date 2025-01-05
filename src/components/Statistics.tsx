@@ -29,7 +29,7 @@ creative talent for fresh perspectives. Our flexible approach
 ensures impactful, client-focused solutions that resonate
 with your audience.
           </p>
-           <a href="#" className="text-blue-500 font-medium">Hire Designers →</a>
+           <a href="#" className="text-[#1600ea] font-medium">Hire Designers →</a>
            </div>
            <div className="text-center">
             <img
@@ -53,7 +53,7 @@ with your audience.
           <p className="text-xl mb-4">
             Strategically crafted concepts that captivate engagement and boost conversions to maximize profitability.
           </p>
-          <a href="#" className="text-blue-500 font-medium"> Know More →</a>
+          <a href="#" className="text-[#1600ea] font-medium"> Know More →</a>
           </div>
           <div className="text-center mt-5">
             <img
@@ -78,7 +78,7 @@ with your audience.
 and lasting impact, seamlessly aligning with your brand to create engaging,
 resonant results.
           </p>
-          <a href="#" className="text-blue-500 font-medium">Know More →</a>
+          <a href="#" className="text-[#1600ea] font-medium">Know More →</a>
           </div>
           <div className="text-center mt-36">
             <img className='h-full'

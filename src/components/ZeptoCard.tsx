@@ -33,7 +33,7 @@ export default function ZeptoCard() {
           </p>
           <a
             href="#"
-            className="inline-block mt-4 text-blue-600 hover:underline flex items-center"
+            className="inline-block mt-4 text-[#1600ea] hover:underline flex items-center"
           >
             View Portfolio <span className="ml-2">→</span>
           </a>
