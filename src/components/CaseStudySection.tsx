@@ -4,10 +4,11 @@ import { motion } from "framer-motion";
 
 const CaseStudySection = () => {
   return (
-    <section className="bg-gray-900 py-8 sm:py-16 px-4 sm:px-6 lg:px-8 text-white mt-20">
+    <section className="bg-[#070324] py-8 sm:py-16 px-4 sm:px-6 lg:px-8 text-white mt-20">
       <div className="max-w-7xl mt-8 mx-auto">
+        <img className="ml-96  flex  w-[500px]" src="/pic-12.png" />
         {/* Logos Section */}
-        <div className="flex flex-wrap justify-center items-center gap-16 mb-8 sm:mb-12">
+        <div className="flex flex-wrap justify-center mt-10 items-center gap-16 mb-8 sm:mb-12">
           <img
             src="/assets/park+.png"
             alt="Park+"
@@ -50,9 +51,9 @@ const CaseStudySection = () => {
             transition={{ duration: 0.8 }}
             className="space-y-4 text-center md:text-left"
           >
-            <p className="text-yellow-400 text-xs sm:text-sm font-semibold uppercase tracking-widest">
-              Featured Case Study
-            </p>
+            <img className="w-80" src="/pic-11.png" />
+              
+           
             <h3 className="text-xl sm:text-6xl lg:text-6xl  leading-snug space-x-8">
               "Reimagining a Legacy: Redefining Top's India Brand Identity and
               Strategy for the Modern Consumer"
