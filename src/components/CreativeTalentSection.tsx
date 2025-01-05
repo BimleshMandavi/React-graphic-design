@@ -36,7 +36,7 @@ const CreativeTalentSection = () => {
             <li>Showcase Your Creative Talent to the World.</li>
             <li>Get Hired for Projects That Elevate Your Career.</li>
           </ul>
-          <button className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700">
+          <button className="px-6 py-3 bg-[#1600ea] text-white font-semibold rounded-md hover:bg-blue-700">
             Become Talent
           </button>
         </motion.div>
