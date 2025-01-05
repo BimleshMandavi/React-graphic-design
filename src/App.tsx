@@ -13,13 +13,12 @@ import FAQ from "../src/components/FAQ"
 import LandingPage from "./components/LandingPage"
 import Footer from "./components/Footer"
 
-
-
 function App() {
 
 
   return (
     <>
+    <div className="">
     <Header />
       <HeroSection />
       <FeaturesSection />
@@ -34,6 +33,7 @@ function App() {
       <FAQ />
       <LandingPage />
       <Footer />
+      </div>
     </>
   )
 }

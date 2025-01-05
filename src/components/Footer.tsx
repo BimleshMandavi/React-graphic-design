@@ -13,7 +13,7 @@ function Footer() {
       initial="hidden"
       animate="visible"
       variants={fadeIn}
-      className="bg-white text-gray-800 border-t border-gray-200"
+      className="bg-white text-gray-800 border-t border-gray-200 px-20"
     >
       <div className="container mx-auto px-4 py-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-8">
         {/* Column 1 */}

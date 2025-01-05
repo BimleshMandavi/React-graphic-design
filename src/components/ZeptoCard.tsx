@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function ZeptoCard() {
   return (
-    <div className="flex items-center justify-center h-80 bg-[#FAF6F0] mt-20">
+    <div className="flex items-center justify-center h-80 bg-[#FAF6F0] mt-20 mx-20">
       <motion.div
         className="flex flex-col md:flex-row items-center gap-10 p-6 shadow-lg rounded-lg max-w-4xl"
         initial={{ opacity: 0, y: 50 }}
@@ -12,7 +12,7 @@ export default function ZeptoCard() {
         transition={{ duration: 0.6 }}
       >
         {/* Left Section */}
-        <div className="flex flex-col items-center  md:items-start">
+        <div className="flex flex-col items-center  md:items-start ">
           <div className="bg-[#4B1868] text-white font-bold text-lg px-6 py-3  rounded-lg">
             zepto
           </div>

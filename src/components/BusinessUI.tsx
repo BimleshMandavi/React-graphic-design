@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
  function BusinessUI() {
   return (
-    <div className="bg-gray-900 text-white font-sans">
+    <div className="bg-gray-900 text-white font-sans px-16">
       <section className="text-center py-12">
         <h1 className="text-6xl font-bold mb-4">
           How we are best for your business.
@@ -28,7 +28,7 @@ import { motion } from "framer-motion";
         <h2 className="text-3xl font-bold mb-8">
           Explore Perfect needs with us.
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 px-16">
           {[
             {
               title: "Campaign Planning",
@@ -49,7 +49,7 @@ import { motion } from "framer-motion";
           ].map((item, index) => (
             <motion.div
               key={index}
-              className="p-4  bg-gray-800 rounded-lg"
+              className="p-4  bg-gray-800 rounded-lg "
               whileHover={{ scale: 1.05 }}
             >
               <img

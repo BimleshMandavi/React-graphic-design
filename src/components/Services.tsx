@@ -120,7 +120,7 @@ export default function TakeAdvantageSection() {
   return (
     <motion.section
       id="take-advantage"
-      className="bg-gray-100 py-16 px-12"
+      className="bg-gray-100 py-16 px-20"
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
@@ -134,7 +134,7 @@ export default function TakeAdvantageSection() {
         >
           Take Advantage
         </motion.h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 px-5">
           {items.map((item, index) => (
             <motion.div
               key={index}

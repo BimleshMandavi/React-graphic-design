@@ -41,7 +41,7 @@ export default function Navbar() {
       </ul>
 
       {/* Right Navigation Buttons */}
-      <div className="flex items-center justify-between space-x-4">
+      <div className="flex items-center justify-between space-x-4 pr-8">
         <a
           href="#"
           className="hidden md:inline-block border border-white px-4 py-2 rounded hover:bg-white hover:text-[#0f0e24] transition"

@@ -24,7 +24,7 @@ const ExpertToolsSection = () => {
 
   return (
     <motion.section
-      className="bg-white text-center py-6 sm:py-10 lg:py-14"
+      className="bg-white text-center py-6 sm:py-10 lg:py-14 px-16"
       variants={containerVariants}
       initial="hidden"
       animate="visible"
