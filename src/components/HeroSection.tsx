@@ -33,7 +33,7 @@ import { SiAdobe } from "react-icons/si";
            <li> On-board the Top 1% Design Talent.</li> <li> Communicate your brand’s story.</li> <li>Impactful Marketing Collateral.</li>
           </motion.p>
           <motion.button
-            className="bg-blue-600 hover:bg-blue-500 text-white font-bold py-2 px-6 rounded"
+            className="bg-[#1600ea] hover:bg-blue-500 text-white font-bold py-2 px-6 rounded"
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.6 }}
