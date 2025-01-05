@@ -49,7 +49,7 @@ import { motion } from "framer-motion";
           ].map((item, index) => (
             <motion.div
               key={index}
-              className="p-4  bg-gray-800 rounded-lg "
+              className="   rounded-lg "
               whileHover={{ scale: 1.05 }}
             >
               <img

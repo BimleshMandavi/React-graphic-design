@@ -22,11 +22,11 @@ const toggleQuestion = (id: number) => {
 };
 
   return (
-    <div className="w-full mx-auto mt-10 px-4 sm:px-6 mb-10 md:px-32">
+    <div className="w-full mx-auto mt-16 px-4 sm:px-6 mb-16 md:px-32">
       <h1 className="text-2xl font-semibold text-center mb-6">
         Resolve your Doubts here.
       </h1>
-      <ul className="space-y-4">
+      <ul className="space-y-8">
         {questions.map(({ id, question, answer }) => (
           <li key={id} className="border-b">
             <div

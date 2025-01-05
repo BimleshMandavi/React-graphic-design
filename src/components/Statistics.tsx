@@ -18,11 +18,11 @@ export default function BenefitSection() {
         {/* Card 1 */}
         <motion.div
           whileHover={{ scale: 1.05 }}
-          className="bg-white text-black p-6 rounded-lg shadow-lg sm:flex sm:justify-between md:gap-10"
+          className="bg-white text-black  rounded-lg shadow-lg sm:flex sm:justify-between md:gap-10"
         >
-          <div className='w-[40%]'>
+          <div className='w-[40%] p-6'>
           <h3 className="text-4xl font-bold mb-2">Hire Us or On-board Top 1% Creative Talent ✨</h3>
-          <p className="text-md mb-4">
+          <p className="text-xl mb-4">
             Collaborate with our expert team for tailored, high-quality
 designs aligned with your brand’s goals, or onboard top
 creative talent for fresh perspectives. Our flexible approach
@@ -46,13 +46,15 @@ with your audience.
         <div className='flex justify-evenly mt-12 w-full gap-5 md:gap-10'>
         <motion.div
           whileHover={{ scale: 1.05 }}
-          className="bg-white text-black p-6 rounded-lg shadow-lg"
+          className="bg-white text-black  rounded-lg shadow-lg"
         >
+          <div className='p-6'>
           <h3 className="text-4xl font-bold mb-2">Creatives that Drives Revenue 💰</h3>
-          <p className="text-md mb-4">
+          <p className="text-xl mb-4">
             Strategically crafted concepts that captivate engagement and boost conversions to maximize profitability.
           </p>
           <a href="#" className="text-blue-500 font-medium"> Know More →</a>
+          </div>
           <div className="text-center mt-5">
             <img
                 src="/pic-03.png"
@@ -67,15 +69,19 @@ with your audience.
         {/* Card 3 */}
         <motion.div
           whileHover={{ scale: 1.05 }}
-          className="bg-white text-black p-6 rounded-lg shadow-lg"
+          className="bg-white text-black rounded-lg shadow-lg"
         >
+          <div className='p-6'>
           <h3 className="text-4xl font-bold mb-2">Top-notch quality, consistently delivered with excellence 🤩</h3>
-          <p className="text-md mb-4">
-            Scale your content with precisely crafted visuals that ensure consistency and lasting impact.
+          <p className="text-xl mb-4">
+            Scale your content with precisely crafted visuals that ensure consistency
+and lasting impact, seamlessly aligning with your brand to create engaging,
+resonant results.
           </p>
           <a href="#" className="text-blue-500 font-medium">Know More →</a>
-          <div className="text-center mt-5">
-            <img
+          </div>
+          <div className="text-center mt-36">
+            <img className='h-full'
                 src="/pic-04.png"
                 alt="Arjun Mehta"
                 
