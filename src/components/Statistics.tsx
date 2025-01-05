@@ -55,8 +55,8 @@ with your audience.
           </p>
           <a href="#" className="text-[#1600ea] font-medium"> Know More →</a>
           </div>
-          <div className="text-center mt-5 ">
-            <img className='px-8 mt-20'
+          <div className="text-center mt-8 ">
+            <img className='px-8 mt-24'
                 src="/pic-03.png"
                 alt="Arjun Mehta"
                
