@@ -16,7 +16,7 @@ function Footer() {
       variants={fadeIn}
       className="bg-white text-gray-800 border-t border-gray-200 px-20"
     >
-      <div className="container mx-auto px-4 py-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-8">
+      <div className="container mx-auto px-4 py-8 flex justify-between gap-8">
         {/* Column 1 */}
         <div className="cursor-pointer">
           <h5 className="text-lg font-semibold mb-4 text-[#908134]">PLATFORM</h5>
@@ -99,7 +99,7 @@ function Footer() {
 
       <div className="container mx-auto px-4 py-6 border-t border-gray-200 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {/* Company */}
-        <div>
+        <div className="w-[30%] mr-10">
           <h5 className="text-lg font-semibold mb-4 text-[#908134]">COMPANY</h5>
           <ul>
             <li className="mb-2">About Us</li>
@@ -113,13 +113,13 @@ function Footer() {
         </div>
 
         {/* Address */}
-        <div className="mr-8">
+        <div className="mr-20">
           <h5 className="text-lg font-semibold mb-4  text-[#908134]">ADDRESS</h5>
           <p className="hover:text-sky-600 cursor-pointer">Address</p>
         </div>
 
         {/* Get in Touch */}
-        <div>
+        <div className="ml-52">
           <h5 className="text-lg font-semibold mb-4 text-[#908134]">GET IN TOUCH</h5>
           <p>Please connect with us at</p>
           <p>+91-XXXXXXXXXX</p>
@@ -130,8 +130,8 @@ function Footer() {
 
         {/* Social Media */}
         <div>
-          <h5 className="text-lg font-semibold mb-4 text-[#908134]">SOCIAL MEDIA</h5>
-          <ul className="flex space-x-4 text-center ml-8">
+          <h5 className="text-lg font-semibold mb-4 text-[#908134] ml-60">SOCIAL MEDIA</h5>
+          <ul className="flex space-x-4 text-center ml-60">
             <li>
               <a href="#" className="text-blue-600 hover:underline flex items-center">
                 <FaInstagram className="mr-2 text-pink-500 text-2xl" />
@@ -144,7 +144,7 @@ function Footer() {
             </li>
            
           </ul>
-          <ul className="flex space-x-4 mt-2 ml-8">
+          <ul className="flex space-x-4 mt-2 ml-60">
              <li>
               <a href="#" className="text-blue-600 hover:underline  items-center">
                 <FaFacebookSquare className="mr-2 text-black text-2xl" />
