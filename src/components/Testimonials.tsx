@@ -36,7 +36,7 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="p-6">
+    <div className="p-6 px-28">
       <h2 className="text-center text-6xl mb-6">Clients are Pitching about us.</h2>
       <div className="flex justify-center gap-4 mb-4">
         <button 

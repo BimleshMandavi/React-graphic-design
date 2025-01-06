@@ -14,7 +14,7 @@ function Footer() {
       initial="hidden"
       animate="visible"
       variants={fadeIn}
-      className="bg-white text-gray-800 border-t border-gray-200 px-20"
+      className="bg-white text-gray-800 border-t border-gray-200 px-28"
     >
       <div className="container mx-auto px-4 py-8 flex justify-between gap-8">
         {/* Column 1 */}

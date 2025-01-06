@@ -12,13 +12,13 @@ const CreativeTalentSection = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <div className="flex space-x-6 mb-4">
-            <span className="text-[#1600ea] font-bold cursor-pointer border-b-2 border-blue-600">
-              For Candidates
-            </span>
-            <span className="text-gray-500 cursor-pointer">
-              For Enterprises
-            </span>
+          <div className="flex text-xl  mb-4">
+            <div className="text-[#1600ea]  cursor-pointer border-b-4 border-blue-600">
+              <p className="px-2">For Candidates</p>
+            </div>
+            <div className="text-gray-400 cursor-pointer border-b-2 border-grey-500 pb-4">
+              <p className="px-2">For Enterprises</p>
+            </div>
           </div>
           <h1 className="text-4xl lg:text-7xl w-[80%]  mb-6 text-black leading-tight">
             Scale your Teams Faster by Hiring the{" "}
