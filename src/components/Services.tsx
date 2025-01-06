@@ -112,7 +112,7 @@ export default function TakeAdvantageSection() {
     },
   ];
 
-  const [visibleCount, setVisibleCount] = useState(6);
+  const [visibleCount, setVisibleCount] = useState(9);
 
   const toggleVisibility = () => {
     setVisibleCount(visibleCount === 9 ? items.length : 9);
