@@ -1,10 +1,5 @@
-
-
-
-
-"use client";
 import { motion } from "framer-motion";
-
+import { useState } from "react";
 
 export default function TakeAdvantageSection() {
   const items = [
@@ -12,7 +7,7 @@ export default function TakeAdvantageSection() {
       title: "Logo Design",
       description:
         "Craft unique and memorable logos that embody your brand’s identity, leaving a lasting impression on your audience.",
-     icon: "/pic-13.png",
+      icon: "/pic-13.png",
     },
     {
       title: "Brand Identity Design",
@@ -53,7 +48,7 @@ export default function TakeAdvantageSection() {
       title: "Brochure & Flyers",
       description:
         "Design informative and visually appealing brochures and flyers that effectively convey your message and promote your business.",
-     icon: "/pic-13.png",
+      icon: "/pic-13.png",
     },
     {
       title: "Illustration Services",
@@ -71,7 +66,7 @@ export default function TakeAdvantageSection() {
       title: "Advertising Design",
       description:
         "Designing print and digital ads, including billboards, banners, and magazine layouts, for impactful campaigns.",
-     icon: "/pic-13.png",
+      icon: "/pic-13.png",
     },
     {
       title: "Ebook and Publication",
@@ -89,7 +84,7 @@ export default function TakeAdvantageSection() {
       title: "Poster and Banner Design",
       description:
         "Creating impactful posters and banners for promotions, events, or campaigns.",
-     icon: "/pic-13.png",
+      icon: "/pic-13.png",
     },
     {
       title: "Custom Typography Design",
@@ -117,6 +112,12 @@ export default function TakeAdvantageSection() {
     },
   ];
 
+  const [visibleCount, setVisibleCount] = useState(9);
+
+  const toggleVisibility = () => {
+    setVisibleCount(visibleCount === 9 ? items.length : 9);
+  };
+
   return (
     <motion.section
       id="take-advantage"
@@ -127,43 +128,42 @@ export default function TakeAdvantageSection() {
     >
       <div className="container mx-auto">
         <motion.h2
-          className="text-3xl md:text-6xl  ml-8 text-start text-black mb-12"
+          className="text-3xl md:text-6xl ml-8 text-start text-black mb-12"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           Take Advantage
         </motion.h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 px-5">
-          {items.map((item, index) => (
+        <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 px-5">
+          {items.slice(0, visibleCount).map((item, index) => (
             <motion.div
               key={index}
-              className="bg-white  p-8 rounded-lg flex flex-col  "
+              className="bg-white p-8 rounded-lg flex flex-col border-2 border-[#192138c9]"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6, delay: 0.3 + index * 0.1 }}
             >
               <div className="flex items-center gap-1">
-              
-              <img
-                src={item.icon}
-                alt={item.title}
-            
-                className="w-10 h-10 mb-4"
-              />
-              <h3 className="text-2xl text-black font-bold  mb-2">{item.title}</h3>
+                <img
+                  src={item.icon}
+                  alt={item.title}
+                  className="w-10 h-10 mb-4"
+                />
+                <h3 className="text-2xl text-black font-bold mb-2">{item.title}</h3>
               </div>
               <p className="text-lg text-gray-600">{item.description}</p>
             </motion.div>
           ))}
         </div>
         <motion.button
-          className="mt-8 mx-auto block border border-black hover:bg-blue-600 text-black hover:text-white py-2 px-6 rounded "
+          onClick={toggleVisibility}
+          className="mt-8 mx-auto block  border-black hover:bg-blue-600 text-black hover:text-white py-2 px-6 rounded"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: items.length * 0.1 + 0.2 }}
         >
-          Show Less ↑
+          {visibleCount === 9 ? "Show More ↓" : "Show Less ↑"}
         </motion.button>
       </div>
     </motion.section>

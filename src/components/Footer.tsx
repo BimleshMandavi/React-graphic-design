@@ -97,7 +97,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className="container mx-auto px-4 py-6 border-t border-gray-200 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="container mx-auto px-4 py-6 border-t border-[#192138c9] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {/* Company */}
         <div className="w-[30%] mr-10">
           <h5 className="text-lg font-semibold mb-4 text-[#908134]">COMPANY</h5>
@@ -160,7 +160,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className="container mx-auto px-4 py-4 flex flex-col md:flex-row items-center justify-between border-t border-gray-200">
+      <div className="container mx-auto px-4 py-4 flex flex-col md:flex-row items-center justify-between border-t border-[#192138c9]">
         <p className="text-sm text-gray-600">© 2024, Name Inc. All Rights Reserved.</p>
         <ul className="flex space-x-4">
           <li>
