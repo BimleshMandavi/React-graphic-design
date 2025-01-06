@@ -32,7 +32,7 @@ import { motion } from "framer-motion";
         <h2 className="text-6xl  mb-24">
           Explore Perfect needs with us.
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 px-16">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 px-14">
           {[
             {
               title: "Campaign Planning",

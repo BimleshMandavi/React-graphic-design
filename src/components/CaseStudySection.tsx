@@ -42,7 +42,7 @@ const CaseStudySection = () => {
         </div>
 
         {/* Main Content */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-12 items-center">
           {/* Text Section */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -90,7 +90,7 @@ const CaseStudySection = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, amount: 0.5 }}
             transition={{ duration: 0.8 }}
-            className="flex justify-center pl-16 "
+            className="flex justify-center pl-18 "
           >
             <img 
               src="/pic-10.png"

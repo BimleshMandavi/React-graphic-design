@@ -135,7 +135,7 @@ export default function TakeAdvantageSection() {
         >
           Take Advantage
         </motion.h2>
-        <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 px-5">
+        <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 px-8">
           {items.slice(0, visibleCount).map((item, index) => (
             <motion.div
               key={index}
@@ -150,7 +150,7 @@ export default function TakeAdvantageSection() {
                   alt={item.title}
                   className="w-10 h-10 mb-4"
                 />
-                <h3 className="text-2xl text-black font-bold mb-2">{item.title}</h3>
+                <h3 className="text-2xl text-black  font-bold mb-2">{item.title}</h3>
               </div>
               <p className="text-lg text-gray-600">{item.description}</p>
             </motion.div>
@@ -158,7 +158,7 @@ export default function TakeAdvantageSection() {
         </div>
         <motion.button
           onClick={toggleVisibility}
-          className="mt-8 mx-auto block  border-black hover:bg-blue-600 text-black hover:text-white py-2 px-6 rounded"
+          className="mt-8 mx-auto block border border-black border-black hover:bg-blue-600 text-black hover:text-white py-2 px-6 rounded"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: items.length * 0.1 + 0.2 }}
