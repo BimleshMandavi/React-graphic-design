@@ -53,7 +53,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between gap-24">
         <a
           href="#"
-          className="bg-[#1600ea] px-6 py-2 rounded hover:bg-blue-500 transition"
+          className="bg-[#1600ea] px-6 py-2  rounded hover:bg-blue-500 transition"
         >
           Get Started
         </a>

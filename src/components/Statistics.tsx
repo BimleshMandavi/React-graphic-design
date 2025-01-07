@@ -48,7 +48,7 @@ with your audience.
         <div className='sm:flex sm:justify-evenly  sm:mt-12 sm:w-full sm:gap-5 md:gap-10'>
         <motion.div
           whileHover={{ scale: 1.05 }}
-          className="bg-white text-black h-full  rounded-lg shadow-lg"
+          className="bg-white text-black   rounded-lg shadow-lg"
         >
           
           <div className='p-6 mt-6'>
