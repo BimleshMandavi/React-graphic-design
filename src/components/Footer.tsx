@@ -165,7 +165,7 @@ function Footer() {
 
       <div className="container mx-auto px-4 py-4 sm:flex flex-col md:flex-row items-center justify-between border-t border-[#192138c9]">
         <p className="text-sm text-[#1700ea6d] ">© 2024, Name Inc. All Rights Reserved.</p>
-        <ul className="sm:flex space-x-4 sm:mr-[500px] gap-6">
+        <ul className="sm:flex space-x-4 sm:mr-[500px] gap-6 text-sm">
           <li>
             <a href="#" className="text-[#1700ea6d] hover:underline">
               Terms of Service
