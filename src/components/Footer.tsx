@@ -15,7 +15,7 @@ function Footer() {
       initial="hidden"
       animate="visible"
       variants={fadeIn}
-      className="bg-white text-gray-800 border-t border-gray-200 px-28"
+      className="bg-white text-gray-800 border-t border-gray-200 sm:px-28"
     >
       <div className="container mx-auto px-4 py-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
         {/* Column 1 */}
@@ -85,7 +85,7 @@ function Footer() {
         </div>
 
         {/* Column 5 */}
-        <div className="cursor-pointer transform translate-x-[160px]">
+        <div className="cursor-pointer sm:transform sm:translate-x-[160px]">
           <h5 className="text-lg font-semibold text-[#908134] mb-4">RESOURCES</h5>
           <ul>
             <li className="mb-2 hover:text-sky-600">Blogs</li>
@@ -102,7 +102,7 @@ function Footer() {
 
       <div className="container mx-auto px-4 py-6 border-t border-[#192138c9] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {/* Company */}
-        <div className="w-[30%] mr-10 transform -translate-x-[19px]">
+        <div className="sm:w-[30%] sm:mr-10 sm:transform sm:-translate-x-[19px]">
           <h5 className="text-lg font-semibold mb-4 text-[#908134]">COMPANY</h5>
           <ul>
             <li className="mb-2">About Us</li>
@@ -148,7 +148,7 @@ function Footer() {
               </a>
             </li>
           </ul>
-          <ul className="flex space-x-4 mt-2 sm:ml-[100px] text-center transform translate-x-[100px]">
+          <ul className="flex space-x-4 mt-2 sm:ml-[100px] text-center sm:transform translate-x-[100px]">
             <li>
               <a href="#" className="text-blue-600 hover:underline  items-center">
                 <FaFacebookSquare className="mr-2 text-black text-2xl" />
@@ -163,9 +163,9 @@ function Footer() {
         </div>
       </div>
 
-      <div className="container mx-auto px-4 py-4 flex flex-col md:flex-row items-center justify-between border-t border-[#192138c9]">
+      <div className="container mx-auto px-4 py-4 sm:flex flex-col md:flex-row items-center justify-between border-t border-[#192138c9]">
         <p className="text-sm text-gray-600 transform -translate-x-[19px]">© 2024, Name Inc. All Rights Reserved.</p>
-        <ul className="flex space-x-4 text-center transform translate-x-[280px]">
+        <ul className="sm:flex space-x-4 text-center transform translate-x-[280px]">
           <li>
             <a href="#" className="text-[#1600ea] hover:underline">
               Terms of Service
