@@ -32,7 +32,7 @@ function FeaturesSection() {
       >
         <div className="container mx-auto  px-4">
           <motion.h2
-            className="text-3xl md:text-6xl  text-center mb-12 "
+            className="text-3xl md:text-6xl w-[700px] sm:ml-96 pb-14 text-center mb-12 "
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
