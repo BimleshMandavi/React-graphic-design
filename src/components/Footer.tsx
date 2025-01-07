@@ -124,7 +124,7 @@ function Footer() {
         {/* Get in Touch */}
         <div className="sm:ml-28 text-center transform translate-x-[1px]">
           <h5 className="text-lg sm:mr-6 font-semibold mb-4 text-[#908134]">GET IN TOUCH</h5>
-          <div className="ml-10 text-start">
+          <div className="ml-8 text-start">
           <p>Please connect with us at</p>
           <p>+91-XXXXXXXXXX</p>
           <p>
