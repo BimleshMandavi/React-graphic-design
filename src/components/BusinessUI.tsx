@@ -26,13 +26,13 @@ import { motion } from "framer-motion";
         </div>
       </section>
 
-      <hr className="w-[895px] ml-80" />
+      <hr className="w-[895px] mx-60" />
 
-      <section className="text-center m-5 py-12">
+      <section className="text-center py-12">
         <h2 className="text-6xl  mb-24">
           Explore Perfect needs with us.
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 px-14">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 px-12">
           {[
             {
               title: "Campaign Planning",

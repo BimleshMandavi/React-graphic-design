@@ -24,7 +24,7 @@ import { SiAdobe } from "react-icons/si";
            <p>Driving Sales</p> <p> and Capturing</p> Attention Through <div className="text-yellow-400">Graphic Designs</div>
           </motion.h1>
           <motion.p
-            className="text-lg md:text-xl mb-6 ml-2"
+            className="text-lg md:text-xl mb-6 ml-4"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.4 }}

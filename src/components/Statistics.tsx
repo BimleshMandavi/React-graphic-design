@@ -56,7 +56,7 @@ with your audience.
           <a href="#" className="text-[#1600ea] font-medium"> Know More →</a>
           </div>
           <div className="text-center ">
-            <img className='px-8 mt-48'
+            <img className='px-8 pt-2 mt-52'
                 src="/pic-03.png"
                 alt="Arjun Mehta"
                
@@ -81,7 +81,7 @@ resonant results.
           <a href="#" className="text-[#1600ea] font-medium">Know More →</a>
           </div>
           <div className="text-center mt-48">
-            <img className='h-full pl-10 pt-10'
+            <img className='h-full pl-10 pt-11  mt-52'
                 src="/pic-17.png"
                 alt="Arjun Mehta"
                 

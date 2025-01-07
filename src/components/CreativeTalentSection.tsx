@@ -3,11 +3,11 @@ import { motion } from "framer-motion";
 
 const CreativeTalentSection = () => {
   return (
-    <section className="py-12 bg-gray-50 md:pl-20 overflow-x-hidden">
+    <section className="py-12  bg-gray-50 md:pl-8 overflow-x-hidden">
       <div className="container mx-auto flex flex-col lg:flex-row items-center md:ml-20">
         {/* Left Section */}
         <motion.div
-          className="lg:w-1/2 px-6 text-center lg:text-left"
+          className="lg:w-1/2 text-center lg:text-left"
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
@@ -31,7 +31,7 @@ const CreativeTalentSection = () => {
             land your dream role, and redefine your career with endless
             opportunities.
           </p>
-          <ul className="list-disc pl-6 text-gray-700 mb-6">
+          <ul className="list-disc pl-8 text-gray-700 mb-6">
             <li>Get Placed with Top Brands Like Google and Amazon.</li>
             <li>Showcase Your Creative Talent to the World.</li>
             <li>Get Hired for Projects That Elevate Your Career.</li>
@@ -48,8 +48,8 @@ const CreativeTalentSection = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <div className="relative md:h-[680px] md:w-[500px] pt-20  rounded-lg  p-6">
-            <img className="w-full h-full"  src="/pic-09.png" alt="Arjun Mehta" />
+          <div className="relative md:h-[600px] md:w-[555px] pt-10  rounded-lg  p-6">
+            <img className="w-full mt-9 h-full"  src="/pic-09.png" alt="Arjun Mehta" />
           </div>
         </motion.div>
       </div>
