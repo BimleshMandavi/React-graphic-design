@@ -102,6 +102,7 @@ function Footer() {
 
       <div className="sm:container flex justify-between pt-4 ml-4 sm:mx-auto sm:px-4 sm:py-6 border-t border-[#192138c9] sm:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {/* Company */}
+        
         <div className="sm:w-[30%]  sm:mr-10 sm:transform sm:-translate-x-[19px]">
           <h5 className="text-lg font-semibold mb-4 text-[#908134]">COMPANY</h5>
           <ul>
@@ -116,15 +117,15 @@ function Footer() {
         </div>
 
         {/* Address */}
-        <div className="sm:mr-80 text-center ml-12 " style={{ transform: 'translateX(-0.6in)' }}>
-          <h5 className="text-lg font-semibold mb-4 sm:mr-8 text-[#908134]">ADDRESS</h5>
+        <div className="sm:mr-[200px] text-center sm:text-start   " style={{ transform: 'translateX(-0.6in)' }}>
+          <h5 className="text-lg font-semibold mb-4  text-[#908134]">ADDRESS</h5>
           <p className="hover:text-sky-800 cursor-pointer">Address</p>
         </div>
 
         {/* Get in Touch */}
-        <div className="sm:ml-28 text-center sm:transform sm:translate-x-[1px] mr-8">
-          <h5 className="text-lg sm:mr-6 font-semibold mb-4 text-[#908134]">GET IN TOUCH</h5>
-          <div className="sm:ml-8 text-start">
+        <div className="sm:ml-36 text-center sm:transform sm:translate-x-[1px] ">
+          <h5 className="text-lg sm:mr-6 font-semibold mb-4 text-start text-[#908134]">GET IN TOUCH</h5>
+          <div className="sm:ml-2 text-start">
           <p>Please connect with us at</p>
           <p>+91-XXXXXXXXXX</p>
           <p>
