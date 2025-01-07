@@ -1,31 +1,32 @@
+
 "use client";
 import { motion } from "framer-motion";
 
 const CreativeTalentSection = () => {
   return (
-    <section className="py-12  bg-gray-50 md:pl-8 overflow-x-hidden">
+    <section className="py-12 bg-gray-50 md:pl-8 overflow-x-hidden">
       <div className="container mx-auto flex flex-col lg:flex-row items-center md:ml-20">
         {/* Left Section */}
         <motion.div
-          className="lg:w-1/2 text-center lg:text-left"
+          className="lg:w-1/2 text-center lg:text-left px-4 sm:px-6 md:px-8"
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <div className="flex text-xl  mb-4">
-            <div className="text-[#1600ea]  cursor-pointer border-b-4 border-blue-600">
+          <div className="flex text-xl mb-4 justify-center sm:justify-start">
+            <div className="text-[#1600ea] cursor-pointer border-b-4 border-blue-600">
               <p className="px-2">For Candidates</p>
             </div>
             <div className="text-gray-400 cursor-pointer border-b-2 border-grey-500 pb-4">
               <p className="px-2">For Enterprises</p>
             </div>
           </div>
-          <h1 className="text-4xl lg:text-7xl w-[80%]  mb-6 text-black leading-tight">
+          <h1 className="text-4xl sm:text-5xl lg:text-7xl w-[90%] sm:w-[80%] mb-6 text-black leading-tight">
             Scale your Teams Faster by Hiring the{" "}
             <span className="text-[#1600ea]">Top 1%</span> Skilled Creative
             Talent.
           </h1>
-          <p className="text-gray-700 mb-6 w-[78%] pt-6">
+          <p className="text-gray-700 mb-6 w-[90%] sm:w-[78%] pt-6">
             Join an exclusive talent pool and connect with leading brands
             searching for top creative professionals. Showcase your expertise,
             land your dream role, and redefine your career with endless
@@ -48,8 +49,8 @@ const CreativeTalentSection = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <div className="relative md:h-[600px] md:w-[555px] pt-10  rounded-lg  p-6">
-            <img className="w-full mt-9 h-full"  src="/pic-09.png" alt="Arjun Mehta" />
+          <div className="relative md:h-[600px] h-[400px] md:w-[555px] w-full pt-10 rounded-lg p-6">
+            <img className="w-full mt-9 h-full object-cover" src="/pic-09.png" alt="Arjun Mehta" />
           </div>
         </motion.div>
       </div>

@@ -1,14 +1,16 @@
+
+
 "use client";
 
 import { motion } from "framer-motion";
 
 const CaseStudySection = () => {
   return (
-    <section className="bg-[#070324] py-8 sm:py-16 px-4 sm:px-6 lg:px-8 text-white sm:mt-20">
-      <div className="max-w-8xl mt-8 sm:ml-20">
+    <section className="bg-[#070324] py-8 sm:py-16 px-4 sm:px-6 lg:px-8 text-white mt-20">
+      <div className="max-w-8xl mt-8 ml-20">
         <img className="ml-96  flex  w-[500px]" src="/pic-12.png" />
         {/* Logos Section */}
-        <div className="flex flex-wrap justify-center mt-10 items-center sm:gap-36 mb-8 sm:mb-12 cursor-pointer">
+        <div className="flex flex-wrap justify-center mt-10 items-center gap-36 mb-8 sm:mb-12 cursor-pointer">
           <img
             src="/assets/park+.png"
             alt="Park+"
@@ -51,29 +53,18 @@ const CaseStudySection = () => {
             transition={{ duration: 0.8 }}
             className="space-y-8 text-center md:text-left"
           >
-            <img className="w-80" src="/pic-11.png" />
-              
-           
-            <h3 className="text-xl sm:text-5xl lg:text-5xl  leading-snug space-x-10 tracking-widest leading-8 mb-8">
-              "Reimagining a Legacy: Redefining Top's India Brand Identity and
-              Strategy for the Modern Consumer"
+            <img className="w-80 sm:w-96 md:w-[350px]" src="/pic-11.png" />
+            <h3 className="text-xl sm:text-3xl lg:text-5xl leading-snug space-x-10 tracking-widest leading-8 mb-8">
+              "Reimagining a Legacy: Redefining Top's India Brand Identity and Strategy for the Modern Consumer"
             </h3>
-            <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-12 justify-center md:justify-start ">
+            <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-12 justify-center md:justify-start">
               <div>
-                <p className="text-3xl sm:text-8xl  text-green-400">
-                  250%
-                </p>
-                <p className="text-xs sm:text-sm mt-4 text-gray-300">
-                  Increase in Click Rate
-                </p>
+                <p className="text-3xl sm:text-5xl text-green-400">250%</p>
+                <p className="text-xs sm:text-sm mt-4 text-gray-300">Increase in Click Rate</p>
               </div>
               <div>
-                <p className="text-3xl sm:text-8xl  text-green-400">
-                  192k+
-                </p>
-                <p className="text-xs sm:text-sm mt-4 text-gray-300">
-                  Leads Generated with Creatives
-                </p>
+                <p className="text-3xl sm:text-5xl text-green-400">192k+</p>
+                <p className="text-xs sm:text-sm mt-4 text-gray-300">Leads Generated with Creatives</p>
               </div>
             </div>
             <a
@@ -90,12 +81,12 @@ const CaseStudySection = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, amount: 0.5 }}
             transition={{ duration: 0.8 }}
-            className="flex justify-center pl-5   "
+            className="flex justify-center pl-5"
           >
-            <img 
+            <img
               src="/pic-10.png"
               alt="Tops Case Study"
-              className="  rounded-lg shadow-lg w-[490px] h-[540px]"
+              className="rounded-lg shadow-lg w-[400px] sm:w-[490px] md:w-[530px] h-auto"
             />
           </motion.div>
         </div>
