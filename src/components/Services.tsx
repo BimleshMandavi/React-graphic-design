@@ -141,7 +141,7 @@ export default function TakeAdvantageSection() {
           {items.slice(0, visibleCount).map((item, index) => (
             <motion.div
               key={index}
-              className="bg-white p-8 rounded-lg flex flex-col border-2 border-[#192138c9]"
+              className="bg-white p-8 rounded-lg flex flex-col border-[1px] border-[#747474c9]"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6, delay: 0.3 + index * 0.1 }}
