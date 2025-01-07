@@ -78,13 +78,13 @@ export default function Navbar() {
           transition={{ duration: 0.3 }}
         >
           {navItems.map((item) => (
-            <div key={item.name} className="flex flex-col ">
-              <span className="font-bold mb-2">{item.name}</span>
+            <div key={item.name} className="flex justify-evenly ">
+              <span className="font-bold mb-2 flex">{item.name}</span>
               {item.subItems.map((subItem) => (
-                <a
+                <a 
                   key={subItem}
                   href="#"
-                  className="block pl-4 py-1 hover:bg-[#2e2c4d] transition"
+                  className=" flex-col pl-4 py-1 hover:bg-[#2e2c4d] transition"
                 >
                   {subItem}
                 </a>
