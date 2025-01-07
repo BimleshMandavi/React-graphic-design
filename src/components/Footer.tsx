@@ -164,27 +164,27 @@ function Footer() {
       </div>
 
       <div className="container mx-auto px-4 py-4 sm:flex flex-col md:flex-row items-center justify-between border-t border-[#192138c9]">
-        <p className="text-sm text-gray-600 transform -translate-x-[19px]">© 2024, Name Inc. All Rights Reserved.</p>
-        <ul className="sm:flex space-x-4 text-center transform translate-x-[280px]">
+        <p className="text-sm text-gray-600 ">© 2024, Name Inc. All Rights Reserved.</p>
+        <ul className="sm:flex space-x-4 sm:mr-[500px] gap-6">
           <li>
-            <a href="#" className="text-[#1600ea] hover:underline">
+            <a href="#" className="text-[#1700ea6d] hover:underline">
               Terms of Service
             </a>
           </li>
           <li>
-            <a href="#" className="text-[#1600ea] hover:underline">
+            <a href="#" className="text-[#1700ea6d] hover:underline">
               Privacy Policy
             </a>
           </li>
           <li>
-            <a href="#" className="text-[#1600ea] hover:underline">
+            <a href="#" className="text-[#1700ea6d] hover:underline">
               Sitemap
             </a>
           </li>
         </ul>
 
         <p className="text-sm text-gray-600 text-center transform translate-x-[60px]">
-          A Proud <span className="text-[#1600ea]">🇮🇳 Design Agency</span>.
+          A Proud <span className="text-[#1700ea6d]">🇮🇳 Design Agency</span>.
         </p>
       </div>
     </motion.footer>
