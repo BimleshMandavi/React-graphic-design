@@ -1,4 +1,4 @@
-"use client";
+
 // HeroSection.tsx
 import { motion } from 'framer-motion';
 
@@ -48,7 +48,7 @@ import { SiAdobe } from "react-icons/si";
           transition={{ duration: 0.8, delay: 0.6 }}
         >
           <div>
-          <img src="/pic-01.png" alt="Hero Image" />
+          <img className='md:w-[800px]' src="/pic-01.png" alt="Hero Image" />
            <div className='flex items-center gap-2 px-14 text-lg sm:ml-96'><SiAdobe /> Adobe</div>
            </div>
         </motion.div>

@@ -15,7 +15,7 @@ export default function Navbar() {
 
   return (
     <motion.nav
-      className="bg-[#0f0e24]  text-white px-20 py-4 sm:pl-60 flex justify-between items-center shadow-bottom-white relative z-50 right-0"
+      className="bg-[#0f0e24] border-b-[0.1px] border-slate-100  text-white px-20 py-4 sm:pl-60 flex justify-between items-center shadow-bottom-white relative z-50 right-0"
       initial={{ y: -50, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6 }}
@@ -89,8 +89,10 @@ export default function Navbar() {
           ))}
           <a href="#" className="block border border-white px-4 py-2 rounded text-center">Hire Talent ↗</a>
           <a href="#" className="block bg-blue-600 px-4 py-2 rounded text-center">Get Started</a>
+          
         </motion.div>
       )}
+     
     </motion.nav>
   );
 }
