@@ -19,7 +19,7 @@ function Footer() {
     >
       <div className="container mx-auto px-4 py-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
         {/* Column 1 */}
-        <div className="cursor-pointer sm:ml-[-19px]">
+        <div className="hidden sm:flex sm:flex-col cursor-pointer sm:ml-[-19px]">
           <h5 className="text-lg font-semibold mb-4 text-[#908134]">PLATFORM</h5>
           <ul>
             <li className="mb-2 hover:text-sky-600">Text 1</li>
@@ -38,7 +38,7 @@ function Footer() {
         </div>
 
         {/* Column 2 */}
-        <div className="cursor-pointer">
+        <div className="cursor-pointer hidden sm:flex sm:flex-col">
           <h5 className="text-lg font-semibold mb-4 text-[#908134]">DESIGN SERVICES</h5>
           <ul>
             <li className="mb-2 hover:text-sky-600">Content Writing</li>
@@ -53,7 +53,7 @@ function Footer() {
         </div>
 
         {/* Column 3 */}
-        <div className="cursor-pointer">
+        <div className="cursor-pointer hidden sm:flex sm:flex-col">
           <h5 className="text-lg font-semibold mb-4 text-[#908134]">MARTECH SERVICES</h5>
           <ul>
             <li className="mb-2 hover:text-sky-600">Custom Web Development</li>
@@ -68,7 +68,7 @@ function Footer() {
         </div>
 
         {/* Column 4 */}
-        <div className="cursor-pointer">
+        <div className="cursor-pointer hidden sm:flex sm:flex-col">
           <h5 className="text-lg font-semibold mb-4 text-[#908134]">MEDIA SERVICES</h5>
           <ul>
             <li className="mb-2 hover:text-sky-600">Media Planning & Buying</li>
@@ -85,7 +85,7 @@ function Footer() {
         </div>
 
         {/* Column 5 */}
-        <div className="cursor-pointer sm:transform sm:translate-x-[160px]">
+        <div className="cursor-pointer sm:transform sm:translate-x-[160px] hidden sm:flex sm:flex-col">
           <h5 className="text-lg font-semibold text-[#908134] mb-4">RESOURCES</h5>
           <ul>
             <li className="mb-2 hover:text-sky-600">Blogs</li>
@@ -100,9 +100,9 @@ function Footer() {
         </div>
       </div>
 
-      <div className="container mx-auto px-4 py-6 border-t border-[#192138c9] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="sm:container flex justify-between pt-4 ml-4 sm:mx-auto sm:px-4 sm:py-6 border-t border-[#192138c9] sm:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {/* Company */}
-        <div className="sm:w-[30%] sm:mr-10 sm:transform sm:-translate-x-[19px]">
+        <div className="sm:w-[30%]  sm:mr-10 sm:transform sm:-translate-x-[19px]">
           <h5 className="text-lg font-semibold mb-4 text-[#908134]">COMPANY</h5>
           <ul>
             <li className="mb-2">About Us</li>
@@ -116,15 +116,15 @@ function Footer() {
         </div>
 
         {/* Address */}
-        <div className="sm:mr-80" style={{ transform: 'translateX(-0.6in)' }}>
+        <div className="sm:mr-80 text-center ml-12 " style={{ transform: 'translateX(-0.6in)' }}>
           <h5 className="text-lg font-semibold mb-4 sm:mr-8 text-[#908134]">ADDRESS</h5>
           <p className="hover:text-sky-800 cursor-pointer">Address</p>
         </div>
 
         {/* Get in Touch */}
-        <div className="sm:ml-28 text-center transform translate-x-[1px]">
+        <div className="sm:ml-28 text-center sm:transform sm:translate-x-[1px] mr-8">
           <h5 className="text-lg sm:mr-6 font-semibold mb-4 text-[#908134]">GET IN TOUCH</h5>
-          <div className="ml-8 text-start">
+          <div className="sm:ml-8 text-start">
           <p>Please connect with us at</p>
           <p>+91-XXXXXXXXXX</p>
           <p>
@@ -135,8 +135,8 @@ function Footer() {
 
         {/* Social Media */}
         <div className="sm:ml-10">
-          <h5 className="text-lg font-semibold mb-4 text-[#908134] transform translate-x-[200px]">SOCIAL</h5>
-          <ul className="flex space-x-4 text-center transform translate-x-[200px] ">
+          <h5 className="text-lg font-semibold mb-4 text-[#908134] sm:transform translate-x-[200px]">SOCIAL</h5>
+          <ul className="flex space-x-4 text-center sm:transform translate-x-[200px] ">
             <li>
               <a href="#" className="text-blue-600 hover:underline flex items-center">
                 <FaInstagram className="mr-2 text-pink-500 text-2xl" />
@@ -148,7 +148,7 @@ function Footer() {
               </a>
             </li>
           </ul>
-          <ul className="flex space-x-4 mt-2 sm:ml-[100px] text-center sm:transform translate-x-[100px]">
+          <ul className="sm:flex space-x-4 mt-2 sm:ml-[100px] text-center sm:transform translate-x-[100px]">
             <li>
               <a href="#" className="text-blue-600 hover:underline  items-center">
                 <FaFacebookSquare className="mr-2 text-black text-2xl" />
@@ -163,9 +163,9 @@ function Footer() {
         </div>
       </div>
 
-      <div className="container mx-auto px-4 py-4 sm:flex flex-col md:flex-row items-center justify-between border-t border-[#192138c9]">
+      <div className="container mx-auto  py-4 sm:flex flex-col md:flex-row items-center justify-between border-t border-[#192138c9]">
         <p className="text-sm text-[#1700ea6d] ">© 2024, Name Inc. All Rights Reserved.</p>
-        <ul className="sm:flex space-x-4 sm:mr-[500px] gap-6 text-sm">
+        <ul className="flex space-x-4 sm:mr-[500px] gap-6 text-sm">
           <li>
             <a href="#" className="text-[#1700ea6d] hover:underline">
               Terms of Service
@@ -183,7 +183,7 @@ function Footer() {
           </li>
         </ul>
 
-        <p className="text-sm text-gray-600 text-center transform translate-x-[60px]">
+        <p className="text-sm text-gray-600 text-center transform translate-x-[60px] pt-8 mr-10">
           A Proud <span className="text-[#1700ea6d]">🇮🇳 Design Agency</span>.
         </p>
       </div>

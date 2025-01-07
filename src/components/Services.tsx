@@ -122,7 +122,7 @@ export default function TakeAdvantageSection() {
     <motion.section
       id="take-advantage"
      
-      className="bg-gray-100 sm:py-16 sm:px-20"
+      className="bg-gray-100 sm:py-16 pt-8 mb-8 sm:px-20"
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
@@ -144,7 +144,7 @@ export default function TakeAdvantageSection() {
               className="bg-white p-8 rounded-lg flex flex-col border-[1px] border-[#747474c9]"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.6, delay: 0.3 + index * 0.1 }}
+              transition={{ duration: 0.4, delay: 0.1 + index * 0.0 }}
             >
               <div className="flex items-center gap-1">
                 <img

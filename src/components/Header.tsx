@@ -15,7 +15,7 @@ export default function Navbar() {
   return (
     <motion.nav
      
-      className="bg-[#0f0e24] border-b-[0.1px]  text-white px-20 py-4 sm:pl-60 flex justify-between items-center shadow-bottom-white relative z-50 right-0"
+      className="bg-[#0f0e24] border-b-[0.1px]  text-white sm:px-20 py-4 sm:pl-60 flex justify-between items-center shadow-bottom-white relative z-50 right-0"
       initial={{ y: -50, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6 }}
@@ -43,13 +43,14 @@ export default function Navbar() {
 
       {/* Right Navigation Buttons */}
    
-      <div className="flex items-center justify-between space-x-4 sm:ml-32 ">
+      <div className="sm:flex items-center sm:justify-between space-x-4 sm:ml-32 ">
         <a
           href="#"
           className="hidden md:inline-block border border-white px-4 py-2 rounded hover:bg-white hover:text-[#0f0e24] transition"
         >
           Hire Talent ↗
         </a>
+        <div className="flex items-center justify-between gap-24">
         <a
           href="#"
           className="bg-[#1600ea] px-6 py-2 rounded hover:bg-blue-500 transition"
@@ -63,8 +64,9 @@ export default function Navbar() {
           className="flex sm:hidden sm:ml-8 w-full h-full text-white"
           onClick={() => setIsOpen(!isOpen)}
         >
-          <GiHamburgerMenu />
+          <GiHamburgerMenu className="w-12 h-12 ml-20" />
         </button>
+        </div>
       </div>
 
       {/* Mobile Menu */}

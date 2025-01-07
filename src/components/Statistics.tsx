@@ -33,7 +33,7 @@ with your audience.
            <a href="#" className="text-[#1600ea] font-medium">Hire Designers →</a>
            </div>
            <div className="text-center pt-10 pl-20">
-            <img
+            <img className=''
                 src="/pic-15.png"
                 alt="Arjun Mehta"
 
@@ -60,7 +60,7 @@ with your audience.
           </div>
           <div className="text-center ">
            
-            <img className='px-8 pt-[19px]'
+            <img className='px-8 pt-[19.8px]'
                 src="/pic-03.png"
                 alt="Arjun Mehta"
 
@@ -84,9 +84,9 @@ resonant results.
           </p>
           <a href="#" className="text-[#1600ea] font-medium">Know More →</a>
           </div>
-          <div className="text-center sm:pt-[42px]">
+          <div className="text-center sm:pt-[44px]">
       
-            <img className='sm:h-full sm:pl-6'
+            <img className='sm:h-full  sm:pl-[24px] rounded-lg'
                 src="/pic-17.png"
                 alt="Arjun Mehta"
 
