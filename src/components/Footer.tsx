@@ -122,7 +122,7 @@ function Footer() {
           <p className="hover:text-sky-800 cursor-pointer">Address</p>
         </div>
         {/* Get in Touch */}
-        <div className="ml-52 text-center transform translate-x-[1px]">
+        <div className="ml-28 text-center transform translate-x-[1px]">
           <h5 className="text-lg font-semibold mb-4 text-[#908134]">GET IN TOUCH</h5>
           <p>Please connect with us at</p>
           <p>+91-XXXXXXXXXX</p>
@@ -133,8 +133,8 @@ function Footer() {
 
         {/* Social Media */}
         <div>
-          <h5 className="text-lg font-semibold mb-4 text-[#908134] transform translate-x-[260px]">SOCIAL MEDIA</h5>
-          <ul className="flex space-x-4 text-center transform translate-x-[290px]">
+          <h5 className="text-lg font-semibold mb-4 text-[#908134] transform translate-x-[200px]">SOCIAL MEDIA</h5>
+          <ul className="flex space-x-4 text-center transform translate-x-[200px]">
             <li>
               <a href="#" className="text-blue-600 hover:underline flex items-center">
                 <FaInstagram className="mr-2 text-pink-500 text-2xl" />
