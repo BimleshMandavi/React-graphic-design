@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+import { useState } from 'react';
 
 const testimonials = [
   { rating: 4, text: 'Text', name: 'Anik Jain', role: 'Designer' },
