@@ -116,15 +116,15 @@ function Footer() {
         </div>
 
         {/* Address */}
-        <div className="mr-80" style={{ transform: 'translateX(-0.6in)' }}>
-          <h5 className="text-lg font-semibold mb-4 text-[#908134]">ADDRESS</h5>
+        <div className="sm:mr-80" style={{ transform: 'translateX(-0.6in)' }}>
+          <h5 className="text-lg font-semibold mb-4 sm:mr-8 text-[#908134]">ADDRESS</h5>
           <p className="hover:text-sky-800 cursor-pointer">Address</p>
         </div>
 
         {/* Get in Touch */}
-        <div className="ml-28 text-center transform translate-x-[1px]">
-          <h5 className="text-lg font-semibold mb-4 text-[#908134]">GET IN TOUCH</h5>
-          <div className="ml-10">
+        <div className="sm:ml-28 text-center transform translate-x-[1px]">
+          <h5 className="text-lg sm:mr-6 font-semibold mb-4 text-[#908134]">GET IN TOUCH</h5>
+          <div className="ml-10 text-start">
           <p>Please connect with us at</p>
           <p>+91-XXXXXXXXXX</p>
           <p>
@@ -134,9 +134,9 @@ function Footer() {
         </div>
 
         {/* Social Media */}
-        <div>
-          <h5 className="text-lg font-semibold mb-4 text-[#908134] transform translate-x-[200px]">SOCIAL MEDIA</h5>
-          <ul className="flex space-x-4 text-center transform translate-x-[200px] ml-2">
+        <div className="sm:ml-10">
+          <h5 className="text-lg font-semibold mb-4 text-[#908134] transform translate-x-[200px]">SOCIAL</h5>
+          <ul className="flex space-x-4 text-center transform translate-x-[200px] ">
             <li>
               <a href="#" className="text-blue-600 hover:underline flex items-center">
                 <FaInstagram className="mr-2 text-pink-500 text-2xl" />
@@ -148,7 +148,7 @@ function Footer() {
               </a>
             </li>
           </ul>
-          <ul className="flex space-x-4 mt-2 ml-40 text-center transform translate-x-[100px]">
+          <ul className="flex space-x-4 mt-2 sm:ml-[100px] text-center transform translate-x-[100px]">
             <li>
               <a href="#" className="text-blue-600 hover:underline  items-center">
                 <FaFacebookSquare className="mr-2 text-black text-2xl" />

@@ -1,4 +1,3 @@
-
 import { motion } from "framer-motion";
 import { useState } from "react";
 
@@ -122,45 +121,46 @@ export default function TakeAdvantageSection() {
   return (
     <motion.section
       id="take-advantage"
-      className="bg-gray-100 py-16 px-20"
+     
+      className="bg-gray-100 sm:py-16 sm:px-20"
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
     >
       <div className="container mx-auto">
         <motion.h2
-          className="text-3xl md:text-6xl ml-8 text-start text-black mb-12"
+         
+          className="text-3xl md:text-6xl ml-8 text-start text-black pb-12"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           Take Advantage
         </motion.h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 px-8">
           {items.slice(0, visibleCount).map((item, index) => (
             <motion.div
               key={index}
-              className="bg-white p-6 sm:p-8 rounded-lg flex flex-col border-[1px] border-[#717171c9]"
+              className="bg-white p-8 rounded-lg flex flex-col border-2 border-[#192138c9]"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6, delay: 0.3 + index * 0.1 }}
             >
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-1">
                 <img
                   src={item.icon}
                   alt={item.title}
-                  className="w-12 h-12 sm:w-14 sm:h-14 mb-4"
+                  className="w-10 h-10 mb-4"
                 />
-                <h3 className="text-lg sm:text-xl md:text-2xl text-black font-bold mb-2">
-                  {item.title}
-                </h3>
+                <h3 className="text-2xl text-black  font-bold mb-2">{item.title}</h3>
               </div>
-              <p className="text-sm sm:text-base text-gray-600">{item.description}</p>
+              <p className="text-lg text-gray-600">{item.description}</p>
             </motion.div>
           ))}
         </div>
         <motion.button
           onClick={toggleVisibility}
+          
           className="mt-8 mx-auto block border border-black hover:bg-blue-600 text-black hover:text-white py-2 px-6 rounded"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
