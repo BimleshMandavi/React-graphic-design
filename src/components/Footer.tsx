@@ -132,8 +132,8 @@ function Footer() {
         </div>
 
         {/* Social Media */}
-        <div>
-          <h5 className="text-lg font-semibold mb-4 text-[#908134] transform translate-x-[200px]">SOCIAL MEDIA</h5>
+        <div className="ml-10">
+          <h5 className="text-lg font-semibold  mb-4 text-[#908134] transform translate-x-[200px]">SOCIAL MEDIA</h5>
           <ul className="flex space-x-4 text-center transform translate-x-[200px] ml-2">
             <li>
               <a href="#" className="text-blue-600 hover:underline flex items-center">
