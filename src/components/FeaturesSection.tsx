@@ -25,14 +25,14 @@ function FeaturesSection() {
       <motion.section
         id="features"
       
-        className="bg-[#070324] text-white sm:py-16 sm:px-20"
+        className="bg-[#070324] text-white sm:py-16 sm:px-20 pt-5"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: 'easeOut' }}
       >
         <div className="container mx-auto  px-4">
           <motion.h2
-            className="text-3xl md:text-6xl w-[700px] sm:ml-96 pb-14 text-center mb-12 "
+            className="text-3xl md:text-7xl sm:w-[800px] sm:ml-80  text-center  mb-12"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}

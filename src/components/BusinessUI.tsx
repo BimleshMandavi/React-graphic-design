@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 
 function BusinessUI() {
   return (
-    <div className="bg-[#120d23] text-white font-sans px-16">
+    <div className="bg-[#120d23] text-white font-sans sm:px-16">
       <section className="text-center pt-20 py-12">
         <h1 className="text-4xl sm:text-6xl mb-4 mt-8">
           How we are best for your business.
         </h1>
-        <div className="flex justify-center gap-8 text-xl pt-12 pb-8">
+        <div className="sm:flex justify-center gap-8 text-xl pt-12 pb-8">
           <div className="text-center">
             <h2 className="text-4xl sm:text-6xl mt-8 ">$10M+ </h2>
             <p>Revenue for Clients</p>

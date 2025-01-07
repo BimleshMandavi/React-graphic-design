@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 export default function BenefitSection() {
   return (
   
-    <div className="bg-[#1600ea] text-white sm:py-16 sm:px-8">
+    <div className="bg-[#1600ea] text-white sm:py-16 sm:px-8 pt-9">
 
       {/* Benefit Section */}
       <div className="text-center mb-10">
@@ -14,14 +14,14 @@ export default function BenefitSection() {
       </div>
 
       {/* Grid Section */}
-      <div className=" md:grid-cols-2 lg:grid-cols-3 gap-8 md:p-20">
+      <div className=" md:grid-cols-2 p-6 lg:grid-cols-3 gap-8 md:p-20">
         {/* Card 1 */}
         <motion.div
           whileHover={{ scale: 1.05 }}
-          className="bg-white text-black  rounded-lg shadow-lg sm:flex sm:justify-between md:gap-10"
+          className="bg-white text-black  p-4 rounded-lg shadow-lg sm:flex sm:justify-between md:gap-10"
         >
          
-          <div className='sm:w-[40%] p-6'>
+          <div className='sm:w-[70%] sm:p-20 '>
           <h3 className="text-4xl font-bold mb-2">Hire Us or On-board Top 1% Creative Talent ✨</h3>
           <p className="text-xl mb-4">
             Collaborate with our expert team for tailored, high-quality
@@ -44,14 +44,14 @@ with your audience.
         </motion.div>
 
         {/* Card 2 */}
-        <div className='flex justify-evenly mt-12 w-full gap-5 md:gap-10'>
-        <div className='sm:flex sm:justify-evenly sm:mt-12 sm:w-full sm:gap-5 md:gap-10'>
+        <div className='flex justify-evenly mt-12 w-full gap-5 md:gap-10 p-4 '>
+        <div className='sm:flex sm:justify-evenly sm:h-[77vh] sm:mt-12 sm:w-full sm:gap-5 md:gap-10'>
         <motion.div
           whileHover={{ scale: 1.05 }}
           className="bg-white text-black  rounded-lg shadow-lg"
         >
           
-          <div className='sm:p-6'>
+          <div className='p-6 mt-6'>
           <h3 className="text-4xl font-bold mb-2">Creatives that Drives Revenue 💰</h3>
           <p className="text-xl mb-4">
             Strategically crafted concepts that captivate engagement and boost conversions to maximize profitability.
@@ -60,7 +60,7 @@ with your audience.
           </div>
           <div className="text-center ">
            
-            <img className='px-8 pt-2 sm:mt-52'
+            <img className='px-8 pt-[19px]'
                 src="/pic-03.png"
                 alt="Arjun Mehta"
 
@@ -73,7 +73,7 @@ with your audience.
         {/* Card 3 */}
         <motion.div
           whileHover={{ scale: 1.05 }}
-          className="bg-white text-black rounded-lg shadow-lg"
+          className="bg-white text-black rounded-lg shadow-lg mt-8"
         >
           <div className='p-6'>
           <h3 className="text-4xl font-bold mb-2">Top-notch quality, consistently delivered with excellence 🤩</h3>
@@ -84,9 +84,9 @@ resonant results.
           </p>
           <a href="#" className="text-[#1600ea] font-medium">Know More →</a>
           </div>
-          <div className="text-center mt-48">
+          <div className="text-center sm:pt-[42px]">
       
-            <img className='sm:h-full sm:pl-10 sm:pt-11  sm:mt-52'
+            <img className='sm:h-full sm:pl-6'
                 src="/pic-17.png"
                 alt="Arjun Mehta"
 

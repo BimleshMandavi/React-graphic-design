@@ -24,7 +24,7 @@ const ExpertToolsSection = () => {
 
   return (
     <motion.section
-      className="bg-[#f2ebdf] text-center py-6 sm:py-10 lg:py-14 px-16"
+      className="bg-[#f2ebdf] text-center py-6 sm:py-10 lg:py-14 sm:px-16"
       variants={containerVariants}
       initial="hidden"
       animate="visible"
@@ -53,7 +53,7 @@ const ExpertToolsSection = () => {
         ].map((tool, index) => (
           <motion.div
             key={index}
-            className="w-10 h-10 sm:w-12 sm:h-12 lg:w-16 lg:h-16 text-black flex items-center justify-center gap-6"
+            className="w-16 h-16 sm:w-12 sm:h-12 lg:w-16 lg:h-16 text-black flex items-center justify-center gap-6"
             variants={itemVariants}
             whileHover="hover"
           >

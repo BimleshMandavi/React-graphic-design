@@ -13,7 +13,7 @@ export default function ZeptoCard() {
       >
         {/* Left Section */}
         <div className="flex flex-col items-center  md:items-start w-full ">
-          <img className ="rounded-lg pr-10" src="/pic-14.png" />
+          <img className ="rounded-lg sm:pr-10 w-[200px]" src="/pic-14.png" />
 
           <div className="mt-4 text-center md:text-left ">
             <p className="font-medium text-gray-700">Sanskruti Verma</p>
