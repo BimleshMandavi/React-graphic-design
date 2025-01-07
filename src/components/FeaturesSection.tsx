@@ -24,7 +24,7 @@ function FeaturesSection() {
     return (
       <motion.section
         id="features"
-        className="bg-[#070324] text-white py-16 px-20"
+        className="bg-[#070324] text-white sm:py-16 sm:px-20"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: 'easeOut' }}

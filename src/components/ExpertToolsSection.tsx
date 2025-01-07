@@ -24,7 +24,7 @@ const ExpertToolsSection = () => {
 
   return (
     <motion.section
-      className="bg-[#f2ebdf] text-center py-6 sm:py-10 lg:py-14 px-16"
+      className="bg-[#f2ebdf] text-center py-6 sm:py-10 lg:py-14 sm:px-16"
       variants={containerVariants}
       initial="hidden"
       animate="visible"
@@ -37,7 +37,7 @@ const ExpertToolsSection = () => {
       </motion.h2>
       <motion.div
         // className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6 lg:gap-8 ml-10 justify-center"
-        className="flex gap-4 sm:gap-8 pt-10  m-5 justify-center"
+        className="flex gap-4 sm:gap-8 sm:pt-10  m-5 justify-center"
         variants={containerVariants}
       >
         {[
@@ -53,11 +53,11 @@ const ExpertToolsSection = () => {
         ].map((tool, index) => (
           <motion.div
             key={index}
-            className="w-10 h-10 sm:w-12 sm:h-12 lg:w-16 lg:h-16 text-black flex items-center justify-center gap-6"
+            className="w-10 h-10 sm:w-12 sm:h-12 lg:w-16 lg:h-16 text-black sm:flex items-center justify-center gap-6"
             variants={itemVariants}
             whileHover="hover"
           >
-            <img className="h-20 w-20 gap-8" src={tool.src} alt={tool.alt} />
+            <img className="sm:h-20 sm:w-20 sm:gap-8" src={tool.src} alt={tool.alt} />
           </motion.div>
         ))}
       </motion.div>

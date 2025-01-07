@@ -14,11 +14,11 @@ function Footer() {
       initial="hidden"
       animate="visible"
       variants={fadeIn}
-      className="bg-white text-gray-800 border-t border-gray-200 px-28"
+      className="bg-white text-gray-800 border-t border-gray-200 sm:px-28"
     >
       <div className="container mx-auto px-4 py-8 flex justify-between gap-8">
         {/* Column 1 */}
-        <div className="cursor-pointer ml-[-19px]">
+        <div className="cursor-pointer sm:ml-[-19px]">
           <h5 className="text-lg font-semibold mb-4 text-[#908134]">PLATFORM</h5>
           <ul>
             <li className="mb-2 hover:text-sky-600">Text 1</li>
@@ -122,7 +122,7 @@ function Footer() {
           <p className="hover:text-sky-800 cursor-pointer">Address</p>
         </div>
         {/* Get in Touch */}
-        <div className="ml-32 text-center transform translate-x-[1px]">
+        <div className="sm:ml-32 text-center transform translate-x-[1px]">
           <h5 className="text-lg font-semibold mb-4 text-[#908134]">GET IN TOUCH</h5>
           <div className="ml-10">
           <p>Please connect with us at</p>
@@ -134,7 +134,7 @@ function Footer() {
         </div>
 
         {/* Social Media */}
-        <div className="ml-10">
+        <div className="sm:ml-10 ">
           <h5 className="text-lg font-semibold  mb-4 text-[#908134] transform translate-x-[200px]">SOCIAL MEDIA</h5>
           <ul className="flex space-x-4 text-center transform translate-x-[200px] ml-2">
             <li>

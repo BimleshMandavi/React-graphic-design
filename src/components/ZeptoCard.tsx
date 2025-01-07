@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function ZeptoCard() {
   return (
-    <div className="flex items-center justify-center h-80  mt-20 mx-24">
+    <div className="sm:flex sm:items-center sm:justify-center sm:h-80  sm:mt-20 sm:mx-24">
       <motion.div
         className="flex flex-col md:flex-row items-center gap-10 p-6  rounded-lg max-w-4xl"
         initial={{ opacity: 0, y: 50 }}
@@ -32,7 +32,7 @@ export default function ZeptoCard() {
           </p>
           <a
             href="#"
-            className="inline-block mt-4 text-[#1600ea] hover:underline flex items-center"
+            className="inline-block mt-4 text-[#1600ea] hover:underline sm:flex items-center"
           >
             View Portfolio <span className="ml-2">→</span>
           </a>

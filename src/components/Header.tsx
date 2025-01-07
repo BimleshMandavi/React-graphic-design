@@ -1,6 +1,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +15,7 @@ export default function Navbar() {
 
   return (
     <motion.nav
-      className="bg-[#0f0e24]  text-white px-20 py-4 pl-60 flex justify-between items-center shadow-bottom-white relative z-50 right-0"
+      className="bg-[#0f0e24]  text-white px-20 py-4 sm:pl-60 flex justify-between items-center shadow-bottom-white relative z-50 right-0"
       initial={{ y: -50, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6 }}
@@ -41,7 +42,7 @@ export default function Navbar() {
       </ul>
 
       {/* Right Navigation Buttons */}
-      <div className="flex items-center justify-between space-x-4 ml-32 ">
+      <div className="flex items-center justify-between space-x-4 sm:ml-32 ">
         <a
           href="#"
           className="hidden md:inline-block border border-white px-4 py-2 rounded hover:bg-white hover:text-[#0f0e24] transition"
@@ -57,10 +58,10 @@ export default function Navbar() {
 
         {/* Mobile Menu Button */}
         <button
-          className="sm:hidden  text-white"
+          className="flex sm:hidden sm:ml-8 w-full h-full text-white"
           onClick={() => setIsOpen(!isOpen)}
         >
-          ☰
+          <GiHamburgerMenu />
         </button>
       </div>
 

@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 
 export default function BenefitSection() {
   return (
-    <div className="bg-[#1600ea] text-white py-16 px-8">
+    <div className="bg-[#1600ea] text-white sm:py-16 sm:px-8">
   
       {/* Benefit Section */}
       <div className="text-center mb-10">
@@ -20,7 +20,7 @@ export default function BenefitSection() {
           whileHover={{ scale: 1.05 }}
           className="bg-white text-black  rounded-lg shadow-lg sm:flex sm:justify-between md:gap-10"
         >
-          <div className='w-[40%] p-6'>
+          <div className='sm:w-[40%] p-6'>
           <h3 className="text-4xl font-bold mb-2">Hire Us or On-board Top 1% Creative Talent ✨</h3>
           <p className="text-xl mb-4">
             Collaborate with our expert team for tailored, high-quality
@@ -43,12 +43,12 @@ with your audience.
         </motion.div>
 
         {/* Card 2 */}
-        <div className='flex justify-evenly mt-12 w-full gap-5 md:gap-10'>
+        <div className='sm:flex sm:justify-evenly sm:mt-12 sm:w-full sm:gap-5 md:gap-10'>
         <motion.div
           whileHover={{ scale: 1.05 }}
           className="bg-white text-black  rounded-lg shadow-lg"
         >
-          <div className='p-6'>
+          <div className='sm:p-6'>
           <h3 className="text-4xl font-bold mb-2">Creatives that Drives Revenue 💰</h3>
           <p className="text-xl mb-4">
             Strategically crafted concepts that captivate engagement and boost conversions to maximize profitability.
@@ -56,7 +56,7 @@ with your audience.
           <a href="#" className="text-[#1600ea] font-medium"> Know More →</a>
           </div>
           <div className="text-center ">
-            <img className='px-8 pt-2 mt-52'
+            <img className='px-8 pt-2 sm:mt-52'
                 src="/pic-03.png"
                 alt="Arjun Mehta"
                
@@ -81,7 +81,7 @@ resonant results.
           <a href="#" className="text-[#1600ea] font-medium">Know More →</a>
           </div>
           <div className="text-center mt-48">
-            <img className='h-full pl-10 pt-11  mt-52'
+            <img className='sm:h-full sm:pl-10 sm:pt-11  sm:mt-52'
                 src="/pic-17.png"
                 alt="Arjun Mehta"
                 

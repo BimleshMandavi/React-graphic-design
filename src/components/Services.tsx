@@ -121,14 +121,14 @@ export default function TakeAdvantageSection() {
   return (
     <motion.section
       id="take-advantage"
-      className="bg-gray-100 py-16 px-20"
+      className="bg-gray-100 sm:py-16 sm:px-20"
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
     >
       <div className="container mx-auto">
         <motion.h2
-          className="text-3xl md:text-6xl ml-8 text-start text-black mb-12"
+          className="text-3xl md:text-6xl ml-8 text-start text-black pb-12"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
@@ -158,7 +158,7 @@ export default function TakeAdvantageSection() {
         </div>
         <motion.button
           onClick={toggleVisibility}
-          className="mt-8 mx-auto block border border-black border-black hover:bg-blue-600 text-black hover:text-white py-2 px-6 rounded"
+          className="mt-8 mx-auto block border border-black hover:bg-blue-600 text-black hover:text-white py-2 px-6 rounded"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: items.length * 0.1 + 0.2 }}
