@@ -14,7 +14,7 @@ export default function Navbar() {
 
   return (
     <motion.nav
-      className="bg-[#0f0e24]  text-white px-20 py-4 pl-60 flex justify-between items-center shadow-bottom-white relative z-50 right-0"
+      className="bg-[#0f0e24] text-white px-4 py-4 md:px-20 md:py-4 flex justify-between items-center shadow-bottom-white relative z-50"
       initial={{ y: -50, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6 }}
@@ -41,7 +41,7 @@ export default function Navbar() {
       </ul>
 
       {/* Right Navigation Buttons */}
-      <div className="flex items-center justify-between space-x-4 ml-32 ">
+      <div className="flex items-center justify-between space-x-4 ml-32">
         <a
           href="#"
           className="hidden md:inline-block border border-white px-4 py-2 rounded hover:bg-white hover:text-[#0f0e24] transition"
@@ -57,7 +57,7 @@ export default function Navbar() {
 
         {/* Mobile Menu Button */}
         <button
-          className="sm:hidden  text-white"
+          className="sm:hidden text-white"
           onClick={() => setIsOpen(!isOpen)}
         >
           ☰
@@ -67,13 +67,13 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {isOpen && (
         <motion.div
-          className="absolute top-full left-0  w-full bg-[#0f0e24] text-white flex flex-col space-y-4 p-4"
+          className="absolute top-full left-0 w-full bg-[#0f0e24] text-white flex flex-col space-y-4 p-4 md:hidden"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.3 }}
         >
           {navItems.map((item) => (
-            <div key={item.name} className="flex flex-col ">
+            <div key={item.name} className="flex flex-col">
               <span className="font-bold mb-2">{item.name}</span>
               {item.subItems.map((subItem) => (
                 <a
@@ -86,12 +86,14 @@ export default function Navbar() {
               ))}
             </div>
           ))}
-          <a href="#" className="block border border-white px-4 py-2 rounded text-center">Hire Talent ↗</a>
-          <a href="#" className="block bg-blue-600 px-4 py-2 rounded text-center">Get Started</a>
+          <a href="#" className="block border border-white px-4 py-2 rounded text-center">
+            Hire Talent ↗
+          </a>
+          <a href="#" className="block bg-blue-600 px-4 py-2 rounded text-center">
+            Get Started
+          </a>
         </motion.div>
       )}
     </motion.nav>
   );
 }
-
-

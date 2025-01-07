@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
@@ -14,9 +15,9 @@ const testimonials = [
   { rating: 4, text: 'Text', name: 'Kiran', role: 'Analyst' },
   { rating: 4, text: 'Text', name: 'Ravi', role: 'Consultant' },
   { rating: 4, text: 'Text', name: 'Rahul', role: 'Designer' },
-   { rating: 4, text: 'Text', name: 'Rahul', role: 'Designer' },
-    { rating: 4, text: 'Text', name: 'Rahul', role: 'Designer' },
-     { rating: 4, text: 'Text', name: 'Rahul', role: 'Designer' }
+  { rating: 4, text: 'Text', name: 'Rahul', role: 'Designer' },
+  { rating: 4, text: 'Text', name: 'Rahul', role: 'Designer' },
+  { rating: 4, text: 'Text', name: 'Rahul', role: 'Designer' }
 ];
 
 const Testimonials = () => {
@@ -36,12 +37,12 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="p-6 px-28">
-      <h2 className=" text-6xl mb-6">Clients are Pitching about us.</h2>
-      <div className="flex  gap-4 mb-4">
-        <button 
-          onClick={prev} 
-          disabled={startIndex === 0} 
+    <div className="p-6 px-4 sm:px-8 lg:px-28">
+      <h2 className="text-4xl sm:text-5xl md:text-6xl mb-6 ">Clients are Pitching about us.</h2>
+      <div className="flex  gap-4 mb-6">
+        <button
+          onClick={prev}
+          disabled={startIndex === 0}
           className={`p-2 rounded-full border ${startIndex === 0 ? 'border-gray-300 text-gray-300' : 'border-black text-black'}`}
         >
           <FaArrowLeft />
@@ -54,7 +55,7 @@ const Testimonials = () => {
           <FaArrowRight />
         </button>
       </div>
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {testimonials.slice(startIndex, startIndex + itemsPerPage).map((testimonial, index) => (
           <div key={index} className="p-4 border rounded-lg shadow-sm bg-white">
             <div className="text-blue-600 mb-2">

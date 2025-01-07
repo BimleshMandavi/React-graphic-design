@@ -1,38 +1,39 @@
+
 "use client";
 import { motion } from "framer-motion";
 
- function BusinessUI() {
+function BusinessUI() {
   return (
-    <div className="bg-[#120d23] text-white font-sans px-16">
+    <div className="bg-[#120d23] text-white font-sans px-8 sm:px-16">
       <section className="text-center pt-20 py-12">
-        <h1 className="text-6xl  mb-4 mt-8">
+        <h1 className="text-4xl sm:text-6xl mb-4 mt-8">
           How we are best for your business.
         </h1>
-        <div className="flex justify-center gap-8 text-xl pt-12 pb-8">
+        <div className="flex flex-col sm:flex-row justify-center gap-8 text-xl pt-12 pb-8">
           <div className="text-center">
-            <h2 className="text-6xl mt-8 ">$10M+ </h2> 
+            <h2 className="text-4xl sm:text-6xl mt-8 ">$10M+ </h2>
             <p>Revenue for Clients</p>
           </div>
-          <span className="text-9xl font-[4] ">|</span>
+          <span className="text-5xl sm:text-9xl font-[4] my-4 sm:my-0">|</span>
           <div className="text-center">
-            <h2 className="text-6xl mt-8">1500+ </h2>
+            <h2 className="text-4xl sm:text-6xl mt-8">1500+ </h2>
             <p>Projects Delivered</p>
           </div>
-          <a className="text-9xl font-[4] ">|</a>
+          <a className="text-5xl sm:text-9xl font-[4] my-4 sm:my-0">|</a>
           <div className="text-center">
-            <h2 className="text-6xl mt-8">10k+</h2>
+            <h2 className="text-4xl sm:text-6xl mt-8">10k+</h2>
             <p>Expert Designers</p>
           </div>
         </div>
       </section>
 
-      <hr className="w-[895px] mx-60" />
+      <hr className="w-[895px] mx-auto sm:mx-60 mb-8" />
 
       <section className="text-center py-12">
-        <h2 className="text-6xl  mb-24">
+        <h2 className="text-4xl sm:text-6xl mb-24">
           Explore Perfect needs with us.
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 px-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 px-4 sm:px-12">
           {[
             {
               title: "Campaign Planning",
@@ -53,7 +54,7 @@ import { motion } from "framer-motion";
           ].map((item, index) => (
             <motion.div
               key={index}
-              className="   rounded-lg "
+              className="rounded-lg"
               whileHover={{ scale: 1.05 }}
             >
               <img
@@ -70,4 +71,4 @@ import { motion } from "framer-motion";
   );
 }
 
-export default BusinessUI
+export default BusinessUI;
