@@ -122,13 +122,15 @@ function Footer() {
           <p className="hover:text-sky-800 cursor-pointer">Address</p>
         </div>
         {/* Get in Touch */}
-        <div className="ml-28 text-center transform translate-x-[1px]">
+        <div className="ml-32 text-center transform translate-x-[1px]">
           <h5 className="text-lg font-semibold mb-4 text-[#908134]">GET IN TOUCH</h5>
+          <div className="ml-10">
           <p>Please connect with us at</p>
           <p>+91-XXXXXXXXXX</p>
           <p>
             or Write us at <a href="mailto:EMAIL">EMAIL</a>
           </p>
+          </div>
         </div>
 
         {/* Social Media */}
