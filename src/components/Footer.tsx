@@ -134,7 +134,7 @@ function Footer() {
         {/* Social Media */}
         <div>
           <h5 className="text-lg font-semibold mb-4 text-[#908134] transform translate-x-[200px]">SOCIAL MEDIA</h5>
-          <ul className="flex space-x-4 text-center transform translate-x-[200px]">
+          <ul className="flex space-x-4 text-center transform translate-x-[200px] ml-2">
             <li>
               <a href="#" className="text-blue-600 hover:underline flex items-center">
                 <FaInstagram className="mr-2 text-pink-500 text-2xl" />
@@ -146,7 +146,7 @@ function Footer() {
               </a>
             </li>
           </ul>
-          <ul className="flex space-x-4 mt-2 ml-60 text-center transform translate-x-[50px]">
+          <ul className="flex space-x-4 mt-2 ml-40 text-center transform translate-x-[50px]">
             <li>
               <a href="#" className="text-blue-600 hover:underline  items-center">
                 <FaFacebookSquare className="mr-2 text-black text-2xl" />
