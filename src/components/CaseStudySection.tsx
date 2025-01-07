@@ -79,7 +79,7 @@ const CaseStudySection = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, amount: 0.5 }}
             transition={{ duration: 0.8 }}
-            className="flex justify-center pl-5"
+            className="flex justify-center sm:pl-8"
           >
             <img
               src="/pic-10.png"
