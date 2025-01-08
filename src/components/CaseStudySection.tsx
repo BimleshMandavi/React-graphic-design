@@ -7,7 +7,7 @@ const CaseStudySection = () => {
       <div className="max-w-8xl mt-8 sm:ml-20">
         <img className="sm:ml-96  flex  w-[500px]" src="/pic-12.png" />
         {/* Logos Section */}
-        <div className="flex flex-wrap justify-center mt-10 items-center sm:gap-36 gap-10 mb-8 sm:mb-12 cursor-pointer">
+        <div className="flex flex-wrap justify-center mt-10 items-center sm:gap-36 gap-10 mb-8 sm:mb-12 cursor-pointer sm:mr-4">
           <img
             src="/assets/park+.png"
             alt="Park+"
