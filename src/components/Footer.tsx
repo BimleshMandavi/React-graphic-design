@@ -19,7 +19,7 @@ function Footer() {
     >
       <div className="container mx-auto px-4 py-8 flex justify-around gap-8">
         {/* Column 1 */}
-        <div className="hidden sm:flex sm:flex-col cursor-pointer sm:ml-[19px]">
+        <div className="hidden sm:flex sm:flex-col cursor-pointer ">
           <h5 className="text-lg font-semibold mb-4 text-[#908134]">PLATFORM</h5>
           <ul>
             <li className="mb-2 hover:text-sky-600">Text 1</li>
@@ -85,7 +85,7 @@ function Footer() {
         </div>
 
         {/* Column 5 */}
-        <div className="cursor-pointer sm:transform sm:translate-x-[160px] hidden sm:flex sm:flex-col sm:mr-28">
+        <div className="cursor-pointer sm:transform sm:translate-x-[160px] hidden sm:flex sm:flex-col sm:mr-36">
           <h5 className="text-lg font-semibold text-[#908134] mb-4">RESOURCES</h5>
           <ul>
             <li className="mb-2 hover:text-sky-600">Blogs</li>
