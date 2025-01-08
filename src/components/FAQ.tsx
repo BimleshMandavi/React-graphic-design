@@ -33,7 +33,7 @@ const toggleQuestion = (id: number) => {
               className="flex items-center justify-between py-2 cursor-pointer"
               onClick={() => toggleQuestion(id)}
             >
-              <span className="text-lg mb-8 font-medium break-words sm:text-base lg:text-lg">
+              <span className="text-lg mb-8 font-bold break-words sm:text-4xl lg:text-lg">
                 {id}. {question}
               </span>
               <button className="text-white font-bold text-xl sm:text-3xl lg:text-3xl rounded-full w-10 h-10 bg-[#1600ea] t">
@@ -48,7 +48,7 @@ const toggleQuestion = (id: number) => {
                   exit={{ opacity: 0, height: 0 }}
                   className="overflow-hidden"
                 >
-                  <p className="py-2 mb-4 px-4 text-gray-600 text-sm sm:text-base lg:text-lg">
+                  <p className="py-2 mb-4 px-4 text-gray-600 text-sm sm:text-lg lg:text-lg">
                     {answer}
                   </p>
                 </motion.div>
