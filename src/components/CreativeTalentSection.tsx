@@ -51,7 +51,7 @@ const CreativeTalentSection = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <div className="relative md:h-[600px] h-[400px] md:w-[500px] w-full pt-10 rounded-lg p-6 sm:mb-3 ">
+          <div className="relative md:h-[580px] h-[400px] md:w-[500px] w-full pt-10 rounded-lg p-6 sm:mb-3 ">
             <img className="w-full mt-9 h-full object-cover sm:ml-32" src="/pic-09.png" alt="Arjun Mehta" />
           </div>
         </motion.div>
