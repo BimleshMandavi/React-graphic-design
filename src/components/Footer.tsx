@@ -1,3 +1,4 @@
+
 import { motion } from "framer-motion";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
@@ -14,11 +15,11 @@ function Footer() {
       initial="hidden"
       animate="visible"
       variants={fadeIn}
-      className="bg-white text-gray-800 border-t border-gray-200 px-4 sm:px-6 lg:px-28"
+      className="bg-white text-gray-800 border-t border-gray-200 sm:px-28"
     >
       <div className="container mx-auto px-4 py-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
         {/* Column 1 */}
-        <div className="cursor-pointer sm:ml-[-19px]">
+        <div className="hidden sm:flex sm:flex-col cursor-pointer sm:ml-[-19px]">
           <h5 className="text-lg font-semibold mb-4 text-[#908134]">PLATFORM</h5>
           <ul>
             <li className="mb-2 hover:text-sky-600">Text 1</li>
@@ -37,7 +38,7 @@ function Footer() {
         </div>
 
         {/* Column 2 */}
-        <div className="cursor-pointer">
+        <div className="cursor-pointer hidden sm:flex sm:flex-col">
           <h5 className="text-lg font-semibold mb-4 text-[#908134]">DESIGN SERVICES</h5>
           <ul>
             <li className="mb-2 hover:text-sky-600">Content Writing</li>
@@ -52,7 +53,7 @@ function Footer() {
         </div>
 
         {/* Column 3 */}
-        <div className="cursor-pointer">
+        <div className="cursor-pointer hidden sm:flex sm:flex-col">
           <h5 className="text-lg font-semibold mb-4 text-[#908134]">MARTECH SERVICES</h5>
           <ul>
             <li className="mb-2 hover:text-sky-600">Custom Web Development</li>
@@ -67,8 +68,8 @@ function Footer() {
         </div>
 
         {/* Column 4 */}
-        <div className="cursor-pointer text-center sm:text-left transform translate-x-[0.5in]">
-          <h5 className="text-lg font-semibold mb-4  text-[#908134]">MEDIA SERVICES</h5>
+        <div className="cursor-pointer hidden sm:flex sm:flex-col">
+          <h5 className="text-lg font-semibold mb-4 text-[#908134]">MEDIA SERVICES</h5>
           <ul>
             <li className="mb-2 hover:text-sky-600">Media Planning & Buying</li>
             <li className="mb-2 hover:text-sky-600">Influencer Marketing</li>
@@ -84,7 +85,7 @@ function Footer() {
         </div>
 
         {/* Column 5 */}
-        <div className="cursor-pointer text-center sm:text-left transform translate-x-[1.7in]">
+        <div className="cursor-pointer sm:transform sm:translate-x-[160px] hidden sm:flex sm:flex-col sm:mr-4">
           <h5 className="text-lg font-semibold text-[#908134] mb-4">RESOURCES</h5>
           <ul>
             <li className="mb-2 hover:text-sky-600">Blogs</li>
@@ -99,15 +100,16 @@ function Footer() {
         </div>
       </div>
 
-      <div className="container mx-auto px-4 py-6 border-t border-[#192138c9] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="sm:container flex justify-between pt-4 ml-4 sm:mx-auto px-4 sm:py-6 border-t border-[#192138c9] sm:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {/* Company */}
-        <div className="w-full sm:w-[30%] transform translate-x-[-0.2in]">
+        
+        <div className="sm:w-[30%]  sm:mr-10 sm:transform sm:-translate-x-[19px]">
           <h5 className="text-lg font-semibold mb-4 text-[#908134]">COMPANY</h5>
           <ul>
             <li className="mb-2">About Us</li>
             <p className="pb-4">Join our team</p>
             <li>
-              <a href="#" className="text-white hover:underline border border-[#1600ea] bg-[#1600ea] rounded p-2">
+              <a href="#" className="text-white hover:underline border min-w-10 border-[#1600ea] bg-[#1600ea] rounded p-2">
                 Join team
               </a>
             </li>
@@ -115,31 +117,31 @@ function Footer() {
         </div>
 
         {/* Address */}
-        <div className="sm:ml-[-0.6in] transform translate-x-[-0.2in]">
-          <h5 className="text-lg font-semibold mb-4 text-[#908134]">ADDRESS</h5>
+        <div className="sm:mr-[200px] text-center sm:text-start  ml-14 sm:ml-0 " style={{ transform: 'translateX(-0.6in)' }}>
+          <h5 className="text-lg font-semibold mb-4  text-[#908134]">ADDRESS</h5>
           <p className="hover:text-sky-800 cursor-pointer">Address</p>
         </div>
 
         {/* Get in Touch */}
-        <div className="text-center sm:text-left transform translate-x-[2.2in]">
-          <h5 className="text-lg font-semibold mb-4 text-[#908134]">GET IN TOUCH</h5>
+        <div className="sm:ml-36 text-center sm:transform sm:translate-x-[1px]">
+          <h5 className="text-lg sm:mr-6 font-semibold mb-4 text-start text-[#908134]">GET IN TOUCH</h5>
+          <div className="sm:ml-2 text-start">
           <p>Please connect with us at</p>
           <p>+91-XXXXXXXXXX</p>
           <p>
             or Write us at <a href="mailto:EMAIL">EMAIL</a>
           </p>
+          </div>
         </div>
 
-
         {/* Social Media */}
-        <div className="text-center  sm:text-left transform translate-x-[2.6in]">
-          <h5 className="text-lg font-semibold mb-4 text-[#908134]">SOCIAL MEDIA</h5>
-          <ul className="flex space-x-4 justify-center sm:justify-start">
+        <div className="sm:ml-10 sm:mr-4">
+          <h5 className="text-lg font-semibold mb-4 text-[#908134] sm:transform translate-x-[200px]">SOCIAL</h5>
+          <ul className="flex space-x-4 text-center sm:transform translate-x-[200px] ">
             <li>
               <a href="#" className="text-blue-600 hover:underline flex items-center">
                 <FaInstagram className="mr-2 text-pink-500 text-2xl" />
               </a>
-
             </li>
             <li>
               <a href="#" className="text-blue-600 hover:underline flex items-center">
@@ -147,14 +149,14 @@ function Footer() {
               </a>
             </li>
           </ul>
-          <ul className="flex space-x-4 justify-center sm:justify-start mt-2">
+          <ul className="sm:flex space-x-4 mt-2 sm:ml-[100px] text-center sm:transform translate-x-[100px]">
             <li>
-              <a href="#" className="text-blue-600 hover:underline flex items-center">
+              <a href="#" className="text-blue-600 hover:underline  items-center">
                 <FaFacebookSquare className="mr-2 text-black text-2xl" />
               </a>
             </li>
             <li>
-              <a href="#" className="text-blue-600 hover:underline flex items-center">
+              <a href="#" className="text-blue-600 hover:underline  items-center">
                 <FaXTwitter className="mr-2 text-black text-2xl" />
               </a>
             </li>
@@ -162,28 +164,28 @@ function Footer() {
         </div>
       </div>
 
-      <div className="container mx-auto px-4 py-4 flex flex-col md:flex-row items-center justify-between border-t border-[#192138c9]">
-        <p className="text-sm text-gray-600 transform translate-x-[-0.2in]">© 2024, Name Inc. All Rights Reserved.</p>
-        <ul className="flex space-x-4 text-center transform translate-x-[3.4in]">
+      <div className="container mx-auto  py-4 sm:flex flex-col md:flex-row items-center justify-between border-t border-[#192138c9]">
+        <p className="text-sm text-[#1700ea6d] ">© 2024, Name Inc. All Rights Reserved.</p>
+        <ul className="flex space-x-4 sm:mr-[500px] gap-6 text-sm">
           <li>
-            <a href="#" className="text-[#1600ea] hover:underline">
+            <a href="#" className="text-[#1700ea6d] hover:underline">
               Terms of Service
             </a>
           </li>
           <li>
-            <a href="#" className="text-[#1600ea] hover:underline">
+            <a href="#" className="text-[#1700ea6d] hover:underline">
               Privacy Policy
             </a>
           </li>
           <li>
-            <a href="#" className="text-[#1600ea] hover:underline">
+            <a href="#" className="text-[#1700ea6d] hover:underline">
               Sitemap
             </a>
           </li>
         </ul>
 
-        <p className="text-sm text-gray-600 text-center transform translate-x-[0.5in]">
-          A Proud <span className="text-[#1600ea]">🇮🇳 Design Agency</span>.
+        <p className="text-sm text-gray-600 text-center transform translate-x-[60px] pt-8 mr-10">
+          A Proud <span className="text-[#1700ea6d]">🇮🇳 Design Agency</span>.
         </p>
       </div>
     </motion.footer>
