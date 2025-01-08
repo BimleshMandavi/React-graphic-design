@@ -1,14 +1,13 @@
 
-
 import { motion } from "framer-motion";
 
 const CaseStudySection = () => {
   return (
-    <section className="bg-[#070324] py-8 sm:py-16 px-4 sm:px-6 lg:px-8 text-white mt-20">
+    <section className="bg-[#070324] py-8 sm:py-16 px-4  lg:px-8 text-white mt-20">
       <div className="max-w-8xl mt-8 sm:ml-20">
         <img className="sm:ml-96  flex  w-[500px]" src="/pic-12.png" />
         {/* Logos Section */}
-        <div className="flex flex-wrap justify-center mt-10 items-center sm:gap-3 gap-10 mb-8 sm:mb-12 cursor-pointer">
+        <div className="flex flex-wrap justify-center mt-10 items-center sm:gap-32 gap-10 mb-8 sm:mb-12 cursor-pointer">
           <img
             src="/assets/park+.png"
             alt="Park+"
