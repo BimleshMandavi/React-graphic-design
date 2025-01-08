@@ -117,7 +117,7 @@ function Footer() {
         </div>
 
         {/* Address */}
-        <div className="sm:mr-[485px] text-center sm:text-start  ml-14 " style={{ transform: 'translateX(-0.6in)' }}>
+        <div className="sm:mr-[485px] text-center sm:text-start  ml-14 sm:ml-4 " style={{ transform: 'translateX(-0.6in)' }}>
           <h5 className="text-lg font-semibold mb-4  text-[#908134]">ADDRESS</h5>
           <p className="hover:text-sky-800 cursor-pointer">Address</p>
         </div>
@@ -166,7 +166,7 @@ function Footer() {
 
       <div className="container mx-auto  py-4 sm:flex flex-col md:flex-row items-center justify-between border-t border-[#192138c9]">
         <p className="text-sm text-[#1700ea6d] ">© 2024, Name Inc. All Rights Reserved.</p>
-        <ul className="flex sm:mr-10 space-x-4 text-center transform translate-x-[3.4in]">
+        <ul className="flex sm:mr-20 space-x-4 text-center transform translate-x-[3.4in]">
           <li>
             <a href="#" className="text-[#1700ea6d] hover:underline">
               Terms of Service
@@ -184,7 +184,7 @@ function Footer() {
           </li>
         </ul>
 
-        <p className="text-sm text-gray-600 text-center transform translate-x-[60px] pt-8 mr-10 sm:mr-20">
+        <p className="text-sm text-gray-600 text-center transform translate-x-[60px] pt-8 sm:mb-4 mr-10 sm:mr-20">
           A Proud <span className="text-[#1700ea6d]">🇮🇳 Design Agency</span>.
         </p>
       </div>
