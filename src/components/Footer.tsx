@@ -117,7 +117,7 @@ function Footer() {
         </div>
 
         {/* Address */}
-        <div className="sm:mr-[485px] text-center sm:text-start  ml-14 sm:ml-4 " style={{ transform: 'translateX(-0.6in)' }}>
+        <div className="sm:mr-[485px] text-center sm:text-start  ml-14 sm:ml-0 " style={{ transform: 'translateX(-0.6in)' }}>
           <h5 className="text-lg font-semibold mb-4  text-[#908134]">ADDRESS</h5>
           <p className="hover:text-sky-800 cursor-pointer">Address</p>
         </div>
@@ -184,7 +184,7 @@ function Footer() {
           </li>
         </ul>
 
-        <p className="text-sm text-gray-600 text-center transform translate-x-[60px] pt-8 sm:mb-4 mr-10 sm:mr-20">
+        <p className="text-sm text-gray-600 text-center transform translate-x-[60px] pt-8 sm:mb-8 mr-10 sm:mr-20">
           A Proud <span className="text-[#1700ea6d]">🇮🇳 Design Agency</span>.
         </p>
       </div>
