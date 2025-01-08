@@ -26,14 +26,14 @@ const toggleQuestion = (id: number) => {
       <h1 className="text-6xl font-semibold text-center mb-6">
         Resolve your Doubts here.
       </h1>
-      <ul className="space-y-8">
+      <ul className="space-y-8 sm:pt-14 sm:text-5xl">
         {questions.map(({ id, question, answer }) => (
           <li key={id} className="border-b">
             <div
               className="flex items-center justify-between py-2 cursor-pointer"
               onClick={() => toggleQuestion(id)}
             >
-              <span className="text-lg mb-8 font-bold break-words sm:text-4xl lg:text-lg">
+              <span className="text-lg mb-8 font-bold break-words sm:text-2xl">
                 {id}. {question}
               </span>
               <button className="text-white font-bold text-xl sm:text-3xl lg:text-3xl rounded-full w-10 h-10 bg-[#1600ea] t">
