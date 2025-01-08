@@ -18,11 +18,11 @@ export default function BenefitSection() {
         {/* Card 1 */}
         <motion.div
           whileHover={{ scale: 1.05 }}
-          className="bg-white text-black  p-4 rounded-lg shadow-lg sm:flex sm:justify-between md:gap-10"
+          className="bg-white text-black  p-4 sm:p-0 rounded-lg shadow-lg sm:flex sm:mb-20 sm::mx-28"
         >
          
           <div className='sm:w-[70%] sm:p-20 '>
-          <h3 className="text-4xl font-bold mb-2">Hire Us or On-board Top 1% Creative Talent ✨</h3>
+          <h3 className="text-4xl font-bold mb-2 sm:mt-4 sm:mb-10">Hire Us or On-board Top 1% Creative Talent ✨</h3>
           <p className="text-xl mb-4">
             Collaborate with our expert team for tailored, high-quality
 designs aligned with your brand’s goals, or onboard top
@@ -32,7 +32,7 @@ with your audience.
           </p>
            <a href="#" className="text-[#1600ea] font-medium">Hire Designers →</a>
            </div>
-           <div className="text-center pt-10 pl-20">
+           <div className="text-center pt-10 ">
             <img className=''
                 src="/pic-15.png"
                 alt="Arjun Mehta"
@@ -44,7 +44,7 @@ with your audience.
         </motion.div>
 
         {/* Card 2 */}
-        <div className='flex justify-evenly mt-12 w-full gap-5 md:gap-10 p-4 '>
+        <div className='flex justify-evenly mt-12 sm:mt-0 w-full gap-5 md:gap-10 p-4 sm:p-0 '>
         <div className='sm:flex sm:justify-evenly  sm:mt-12 sm:w-full sm:gap-5 md:gap-10'>
         <motion.div
           whileHover={{ scale: 1.05 }}
@@ -73,7 +73,7 @@ with your audience.
         {/* Card 3 */}
         <motion.div
           whileHover={{ scale: 1.05 }}
-          className="bg-white text-black rounded-lg shadow-lg mt-8"
+          className="bg-white text-black rounded-lg shadow-lg"
         >
           <div className='p-6'>
           <h3 className="text-4xl font-bold mb-2">Top-notch quality, consistently delivered with excellence 🤩</h3>
@@ -84,7 +84,7 @@ resonant results.
           </p>
           <a href="#" className="text-[#1600ea] font-medium">Know More →</a>
           </div>
-          <div className="text-center sm:pt-[44px]">
+          <div className="text-center sm:pt-[78px]">
       
             <img className='sm:h-full  sm:pl-[24px] rounded-lg'
                 src="/pic-17.png"
