@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const CreativeTalentSection = () => {
   return (
-    <section className="py-12 bg-gray-50 md:pl-4 overflow-x-hidden">
+    <section className="py-12 bg-gray-50 md:pl-2 overflow-x-hidden">
       <div className="container mx-auto flex flex-col lg:flex-row items-center md:ml-20">
         {/* Left Section */}
         <motion.div
