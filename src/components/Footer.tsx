@@ -17,7 +17,7 @@ function Footer() {
       variants={fadeIn}
       className="bg-white text-gray-800 border-t border-gray-200 sm:px-28"
     >
-      <div className="container mx-auto px-4 py-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
+      <div className="container mx-auto px-4 py-8 flex justify-around gap-8">
         {/* Column 1 */}
         <div className="hidden sm:flex sm:flex-col cursor-pointer sm:ml-[-19px]">
           <h5 className="text-lg font-semibold mb-4 text-[#908134]">PLATFORM</h5>
