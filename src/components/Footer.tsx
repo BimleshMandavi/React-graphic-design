@@ -117,7 +117,7 @@ function Footer() {
         </div>
 
         {/* Address */}
-        <div className="sm:mr-[200px] text-center sm:text-start  ml-14 sm:mr-5 " style={{ transform: 'translateX(-0.6in)' }}>
+        <div className="sm:mr-[280px] text-center sm:text-start  ml-14 " style={{ transform: 'translateX(-0.6in)' }}>
           <h5 className="text-lg font-semibold mb-4  text-[#908134]">ADDRESS</h5>
           <p className="hover:text-sky-800 cursor-pointer">Address</p>
         </div>
