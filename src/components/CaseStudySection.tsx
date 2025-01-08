@@ -8,36 +8,51 @@ const CaseStudySection = () => {
         <img className="sm:ml-96  flex  w-[500px]" src="/pic-12.png" />
         {/* Logos Section */}
         <div className="flex flex-wrap justify-center mt-10 items-center sm:gap-36 gap-10 mb-8 sm:mb-12 cursor-pointer sm:mr-8">
-          <img 
+          <a href="/">
+              <img 
             src="/assets/park+.png"
             alt="Park+"
           
             className="w-24 sm:w-28 sm:pr-2"
           />
-          <img
+            </a>
+            <a href="/">
+              <img
             src="/assets/piramal-new.svg"
             alt="Piramal"
             
             className="w-24 sm:w-28"
-          />
-          <img
+          /></a>
+          <a href="/">
+             <img
             src="/assets/adani_logo.png"
             alt="Adani"
          
             className="w-24 sm:w-28"
-          />
-          <img
+          /></a>
+          <a href="/">
+            <img
             src="/assets/Screenshot 2025-01-04 145058.png"
             alt="RVshare"
             
             className="w-24 sm:w-28"
           />
-          <img
+            </a>
+            <a href="/">
+
+               <img
             src="/assets/apollo247.svg"
             alt="Apollo 247"
            
             className="w-24 sm:w-28"
           />
+
+            </a>
+        
+          
+         
+          
+         
         </div>
 
         {/* Main Content */}
