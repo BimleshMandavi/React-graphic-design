@@ -53,7 +53,7 @@ function Footer() {
         </div>
 
         {/* Column 3 */}
-        <div className="cursor-pointer hidden sm:flex sm:flex-col">
+        <div className="cursor-pointer hidden sm:flex sm:flex-col sm:ml-4">
           <h5 className="text-lg font-semibold mb-4 text-[#908134]">MARTECH SERVICES</h5>
           <ul>
             <li className="mb-2 hover:text-sky-600">Custom Web Development</li>
@@ -123,7 +123,7 @@ function Footer() {
         </div>
 
         {/* Get in Touch */}
-        <div className="sm:ml-36 text-center sm:transform sm:translate-x-[1px]">
+        <div className="sm:ml-44 text-center sm:transform sm:translate-x-[1px]">
           <h5 className="text-lg sm:mr-6 font-semibold mb-4 text-start text-[#908134]">GET IN TOUCH</h5>
           <div className="sm:ml-2 text-start">
           <p>Please connect with us at</p>
