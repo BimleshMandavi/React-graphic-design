@@ -52,7 +52,7 @@ const CreativeTalentSection = () => {
           transition={{ duration: 0.8 }}
         >
           <div className="relative md:h-[590px] h-[400px] md:w-[500px] w-full pt-10 rounded-lg p-6 sm:mb-3 ">
-            <img className="w-full mt-9 h-full object-cover sm:ml-16 sm:mr-8" src="/pic-09.png" alt="Arjun Mehta" />
+            <img className="w-full mt-9 h-full object-cover sm:ml-[70px] sm:mr-8" src="/pic-09.png" alt="Arjun Mehta" />
           </div>
         </motion.div>
       </div>
