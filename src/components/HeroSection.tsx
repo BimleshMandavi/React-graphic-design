@@ -1,7 +1,5 @@
 import { motion } from 'framer-motion';
 
-import { SiAdobe } from "react-icons/si";
-
  function HeroSection() {
   return (
     <motion.section
