@@ -12,7 +12,7 @@ const CaseStudySection = () => {
             src="/assets/park+.png"
             alt="Park+"
           
-            className="w-24 sm:w-28 sm:mr-2"
+            className="w-24 sm:w-28 sm:pr-2"
           />
           <img
             src="/assets/piramal-new.svg"
