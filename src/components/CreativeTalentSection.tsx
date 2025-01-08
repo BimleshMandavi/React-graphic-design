@@ -8,7 +8,7 @@ const CreativeTalentSection = () => {
       <div className="container mx-auto flex flex-col lg:flex-row items-center md:ml-20">
         {/* Left Section */}
         <motion.div
-          className="lg:w-1/2 text-center lg:text-left px-4 sm:px-6 md:px-8 sm:py-3"
+          className="lg:w-1/2 text-center lg:text-left px-4 sm:px-4 md:px-8 sm:py-3"
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
