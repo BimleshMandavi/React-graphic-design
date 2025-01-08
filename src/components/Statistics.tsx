@@ -18,7 +18,7 @@ export default function BenefitSection() {
         {/* Card 1 */}
         <motion.div
           whileHover={{ scale: 1.05 }}
-          className="bg-white text-black  p-4 sm:p-0 rounded-lg shadow-lg sm:flex sm:mb-20 sm::mx-28"
+          className="bg-white text-black  p-4 sm:p-0 rounded-lg shadow-lg sm:flex  sm::mx-28"
         >
          
           <div className='sm:w-[70%] sm:p-20 '>
