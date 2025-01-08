@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 export default function BenefitSection() {
   return (
   
-    <div className="bg-[#1600ea] text-white sm:py-16 sm:px-8 pt-9">
+    <div className="bg-[#1600ea] text-white sm:py-12 sm:px-8 pt-9">
 
       {/* Benefit Section */}
       <div className="text-center mb-10">

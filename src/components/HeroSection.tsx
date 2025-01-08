@@ -42,7 +42,7 @@ import { SiAdobe } from "react-icons/si";
           </motion.button>
         </div>
         <motion.div
-          className="md:w-1/2 mt-8 md:mt-0 flex justify-center sm:ml-36"
+          className="md:w-1/2 mt-8 md:mt-0 flex justify-center "
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
@@ -50,7 +50,9 @@ import { SiAdobe } from "react-icons/si";
           <div className=' '>
           <img className='sm:w-[800px] sm:h-[600px]' src="/pic-01.png" alt="Hero Image" />
           
-           <div className='flex items-center gap-2 px-14 text-lg sm:ml-96 '><SiAdobe  /> Adobe</div>
+           <div className='flex items-center gap-2 sm:h-[100px] sm:w-[200px]  text-lg sm:ml-[600px] '>
+            <img className=' sm:h-full sm:w-full' src='/pic-18.png' />
+           </div>
            </div>
         </motion.div>
 
