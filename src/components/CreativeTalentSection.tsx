@@ -22,7 +22,7 @@ const CreativeTalentSection = () => {
             </div>
           </div>
           <div className="sm:py-4">
-          <h1 className="text-4xl sm:text-5xl lg:text-7xl w-[90%] sm:w-[80%] mb-6 text-black leading-tight">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl w-[90%] sm:w-[80%] mb-6 text-black leading-tight">
             Scale your Teams Faster by Hiring the{" "}
             <span className="text-[#1600ea]">Top 1%</span> Skilled Creative
             Talent.
