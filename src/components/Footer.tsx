@@ -135,7 +135,7 @@ function Footer() {
         </div>
 
         {/* Social Media */}
-        <div className="sm:ml-4 sm:mr-8">
+        <div className="sm:ml-2 sm:mr-8">
           <h5 className="text-lg font-semibold mb-4 text-[#908134] sm:transform translate-x-[200px]">SOCIAL</h5>
           <ul className="flex space-x-4 text-center sm:transform translate-x-[200px] ">
             <li>
