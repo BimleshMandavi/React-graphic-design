@@ -135,7 +135,7 @@ function Footer() {
         </div>
 
         {/* Social Media */}
-        <div className="sm:ml-10 sm:mr-4">
+        <div className="sm:ml-14 sm:mr-4">
           <h5 className="text-lg font-semibold mb-4 text-[#908134] sm:transform translate-x-[200px]">SOCIAL</h5>
           <ul className="flex space-x-4 text-center sm:transform translate-x-[200px] ">
             <li>
@@ -184,7 +184,7 @@ function Footer() {
           </li>
         </ul>
 
-        <p className="text-sm text-gray-600 text-center transform translate-x-[60px] pt-8 mr-10">
+        <p className="text-sm text-gray-600 text-center transform translate-x-[60px] pt-8 mr-14">
           A Proud <span className="text-[#1700ea6d]">🇮🇳 Design Agency</span>.
         </p>
       </div>
