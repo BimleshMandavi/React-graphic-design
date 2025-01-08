@@ -85,7 +85,7 @@ function Footer() {
         </div>
 
         {/* Column 5 */}
-        <div className="cursor-pointer sm:transform sm:translate-x-[160px] hidden sm:flex sm:flex-col sm:mr-32">
+        <div className="cursor-pointer sm:transform sm:translate-x-[160px] hidden sm:flex sm:flex-col sm:mr-28">
           <h5 className="text-lg font-semibold text-[#908134] mb-4">RESOURCES</h5>
           <ul>
             <li className="mb-2 hover:text-sky-600">Blogs</li>
