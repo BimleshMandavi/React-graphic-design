@@ -46,7 +46,7 @@ import { motion } from 'framer-motion';
           transition={{ duration: 0.8, delay: 0.6 }}
         >
           <div className=' '>
-          <img className='sm:w-[800px] sm:h-[600px] sm:mr-40' src="/pic-01.png" alt="Hero Image" />
+          <img className='sm:w-[600px] sm:h-[600px] sm:mr-40' src="/pic-01.png" alt="Hero Image" />
           
            <div className='flex items-center gap-2 sm:h-[100px] sm:w-[200px]  text-lg sm:ml-[600px] '>
             <img className=' sm:h-full sm:w-full' src='/pic-18.png' />
